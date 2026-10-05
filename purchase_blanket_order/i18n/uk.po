@@ -9,6 +9,247 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: purchase_blanket_order
-#: model:ir.module.module,shortdesc:base.module_purchase_blanket_order model:ir.module.module,summary:base.module_purchase_blanket_order
+#: model:ir.module.module,shortdesc:base.module_purchase_blanket_order
+#: model:ir.module.module,summary:base.module_purchase_blanket_order
 msgid "Purchase Blanket Orders"
 msgstr "Рамкові замовлення на закупівлю"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__activity_ids
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "Amount"
+msgstr "Сума"
+
+#. module: purchase_blanket_order
+#: model:ir.actions.act_window,name:purchase_blanket_order.act_open_purchase_blanket_order_lines_view_tree
+#: model:ir.ui.menu,name:purchase_blanket_order.menu_purchase_blanket_order_line
+msgid "Blanket Order Lines"
+msgstr "Рядки рамкових замовлень"
+
+#. module: purchase_blanket_order
+#: model:ir.actions.act_window,name:purchase_blanket_order.act_open_purchase_blanket_order_view
+#: model:ir.ui.menu,name:purchase_blanket_order.menu_purchase_blanket_order_config
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.purchase_config_settings_form_view
+msgid "Blanket Orders"
+msgstr "Рамкові замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__company_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__confirmed
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__create_uid
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__create_uid
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard__create_uid
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__create_date
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__create_date
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard__create_date
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__currency_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__currency_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__display_name
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__display_name
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard__display_name
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields.selection,name:purchase_blanket_order.selection__purchase_blanket_order__state__done
+msgid "Done"
+msgstr "Готово"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields.selection,name:purchase_blanket_order.selection__purchase_blanket_order__state__expired
+msgid "Expired"
+msgstr "Прострочено"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_follower_ids
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__has_message
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__activity_exception_icon
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_is_follower
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard__line_ids
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form
+msgid "Lines"
+msgstr "Рядки"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_ids
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__note
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields.selection,name:purchase_blanket_order.selection__purchase_blanket_order__state__open
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_search
+msgid "Open"
+msgstr "Відкрити"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__order_id
+msgid "Order"
+msgstr "Замовлення"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form
+msgid "Order Lines"
+msgstr "Рядки замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__line_ids
+msgid "Order lines"
+msgstr "Рядки замовлення"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.purchase_blanket_order_line_tree
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_search
+msgid "Original Qty"
+msgstr "Початкова кількість"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__price_unit
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__price_unit
+msgid "Price"
+msgstr "Ціна"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__purchase_lines
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.purchase_blanket_order_line_form
+msgid "Purchase Order Lines"
+msgstr "Рядки замовлень на закупівлю"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_search
+msgid "Received Qty"
+msgstr "Отримана кількість"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__user_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__date_start
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__state
+msgid "State"
+msgstr "Стан"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__price_subtotal
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__price_tax
+msgid "Tax"
+msgstr "Податок"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__amount_tax
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__taxes_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__taxes_id
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "Taxes"
+msgstr "Податки"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__amount_total
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__price_total
+msgid "Total"
+msgstr "Разом"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "Unit Price"
+msgstr "Ціна за одиницю"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__partner_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__partner_id
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__partner_id
+msgid "Vendor"
+msgstr "Постачальник"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__wizard_id
+msgid "Wizard"
+msgstr "Майстер"

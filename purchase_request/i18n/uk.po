@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: purchase_request
 #. odoo-python
@@ -145,7 +144,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_ids
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Дії"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_exception_decoration
@@ -178,7 +177,7 @@ msgstr ""
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
 msgid "Allocations"
-msgstr ""
+msgstr "Розподіли"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__analytic_distribution
@@ -206,14 +205,14 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__assigned_to
 msgid "Approver"
-msgstr ""
+msgstr "Погоджувач"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__assigned_to
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Assigned to"
-msgstr ""
+msgstr "Призначено"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
@@ -250,7 +249,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__cancelled
 msgid "Cancelled"
-msgstr ""
+msgstr "Скасовано"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
@@ -260,7 +259,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_uom_category_id
 msgid "Category"
-msgstr ""
+msgstr "Категорія"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_product_product__purchase_request
@@ -280,7 +279,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__company_id
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__product_uom_category_id
@@ -341,7 +340,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__currency_id
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__date_start
@@ -354,7 +353,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__name
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__name
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #. module: purchase_request
 #. odoo-python
@@ -369,7 +368,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__display_name
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Відображувана назва"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__distribution_analytic_account_ids
@@ -381,7 +380,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Done"
-msgstr ""
+msgstr "Готово"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__move_dest_ids
@@ -427,7 +426,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_follower_ids
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Підписники"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_partner_ids
@@ -445,7 +444,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_request_allocation.py:0
 msgid ""
-"From last reception this quantity has been allocated to this purchase request"
+"From last reception this quantity has been allocated to this purchase "
+"request"
 msgstr ""
 
 #. module: purchase_request
@@ -463,7 +463,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__has_message
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Має повідомлення"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
@@ -483,7 +483,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_exception_icon
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Іконка"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_exception_icon
@@ -513,18 +513,18 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__in_progress
 msgid "In progress"
-msgstr ""
+msgstr "В роботі"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__is_editable
 msgid "Is Editable"
-msgstr ""
+msgstr "Редагується"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_is_follower
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Є підписником"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__is_name_editable
@@ -539,7 +539,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__item_ids
 msgid "Items"
-msgstr ""
+msgstr "Елементи"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__write_uid
@@ -562,7 +562,7 @@ msgstr "Дата останньої зміни"
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Lines"
-msgstr ""
+msgstr "Рядки"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2_sub
@@ -584,7 +584,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_ids
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Повідомлення"
 
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_stock_warehouse_orderpoint
@@ -681,7 +681,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__orderpoint_id
 msgid "Orderpoint"
-msgstr ""
+msgstr "Точка замовлення"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__description
@@ -697,17 +697,17 @@ msgstr ""
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Picking"
-msgstr ""
+msgstr "Переміщення"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__picking_type_id
 msgid "Picking Type"
-msgstr ""
+msgstr "Тип переміщення"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Pickings"
-msgstr ""
+msgstr "Переміщення"
 
 #. module: purchase_request
 #. odoo-python
@@ -744,7 +744,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Products"
-msgstr ""
+msgstr "Товари"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__line_ids
@@ -784,7 +784,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_details
 msgid "Purchase Order Lines"
-msgstr ""
+msgstr "Рядки замовлень на закупівлю"
 
 #. module: purchase_request
 #: model:mail.message.subtype,name:purchase_request.mt_request_po_confirmed
@@ -873,7 +873,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2_sub
 msgid "Purchase Request Lines"
-msgstr ""
+msgstr "Рядки запитів на закупівлю"
 
 #. module: purchase_request
 #: model:res.groups,name:purchase_request.group_purchase_request_manager
@@ -922,7 +922,7 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase_request.menu_purchase_request_pro_mgt
 #: model:ir.ui.menu,name:purchase_request.parent_menu_purchase_request
 msgid "Purchase Requests"
-msgstr ""
+msgstr "Запити на закупівлю"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchase_state
@@ -953,7 +953,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__qty_done
 msgid "Qty Done"
-msgstr ""
+msgstr "Виконана кількість"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__qty_in_progress
@@ -963,7 +963,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_qty
 msgid "Quantity"
-msgstr ""
+msgstr "Кількість"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__qty_cancelled
@@ -990,8 +990,8 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_allocation__requested_product_uom_qty
 msgid ""
-"Quantity of the purchase request line allocated to thestock move, in the UoM "
-"of the Purchase Request Line"
+"Quantity of the purchase request line allocated to thestock move, in the UoM"
+" of the Purchase Request Line"
 msgstr ""
 
 #. module: purchase_request
@@ -1008,7 +1008,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchased_qty
 msgid "RFQ/PO Qty"
-msgstr ""
+msgstr "Кількість RFQ/PO"
 
 #. module: purchase_request
 #. odoo-python
@@ -1043,17 +1043,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Rejected"
-msgstr ""
+msgstr "Відхилено"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "Request"
-msgstr ""
+msgstr "Запит"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__date_required
 msgid "Request Date"
-msgstr ""
+msgstr "Дата запиту"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_form
@@ -1113,7 +1113,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__requested_by
 msgid "Requested By"
-msgstr ""
+msgstr "Запитав"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__requested_product_uom_qty
@@ -1125,7 +1125,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Requested by"
-msgstr ""
+msgstr "Запитав"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
@@ -1182,12 +1182,12 @@ msgstr ""
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Show Details"
-msgstr ""
+msgstr "Показувати деталі"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Source"
-msgstr ""
+msgstr "Джерело"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__origin
@@ -1205,13 +1205,13 @@ msgstr ""
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Start Date"
-msgstr ""
+msgstr "Дата початку"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__state
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__purchase_state
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_state
@@ -1227,7 +1227,7 @@ msgstr ""
 #: model:ir.model,name:purchase_request.model_stock_move
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__stock_move_id
 msgid "Stock Move"
-msgstr ""
+msgstr "Складське переміщення"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__move_count
@@ -1237,7 +1237,7 @@ msgstr ""
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2_sub
 msgid "Stock Moves"
-msgstr ""
+msgstr "Складські переміщення"
 
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_stock_rule
@@ -1247,7 +1247,7 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__supplier_id
 msgid "Supplier"
-msgstr ""
+msgstr "Постачальник"
 
 #. module: purchase_request
 #. odoo-python
@@ -1276,8 +1276,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_request/models/stock_move_line.py:0
 msgid ""
-"The following requested items from Purchase Request {request_name} requested "
-"by {requestor} have now been received in {location_name}:"
+"The following requested items from Purchase Request {request_name} requested"
+" by {requestor} have now been received in {location_name}:"
 msgstr ""
 
 #. module: purchase_request
@@ -1324,7 +1324,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_details
 msgid "Tracking"
-msgstr ""
+msgstr "Відстеження"
 
 #. module: purchase_request
 #. odoo-python
@@ -1363,13 +1363,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_uom_id
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__product_uom_id
 msgid "UoM"
-msgstr ""
+msgstr "Од. вим."
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_tree_sub
 msgid "Vendor"
-msgstr ""
+msgstr "Постачальник"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__website_message_ids
@@ -1386,14 +1386,14 @@ msgstr ""
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line_make_purchase_order__sync_data_planned
 msgid ""
-"When checked, PO lines on the selected purchase order are only reused if the "
-"scheduled date matches as well."
+"When checked, PO lines on the selected purchase order are only reused if the"
+" scheduled date matches as well."
 msgstr ""
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__wiz_id
 msgid "Wizard"
-msgstr ""
+msgstr "Майстер"
 
 #. module: purchase_request
 #. odoo-python

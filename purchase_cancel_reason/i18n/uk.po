@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: purchase_cancel_reason
 #: model:ir.model,name:purchase_cancel_reason.model_purchase_order_cancel
@@ -60,7 +59,7 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__display_name
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Відображувана назва"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__id
@@ -105,13 +104,13 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase_cancel_reason.menu_purchase_order_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel_reason_form
 msgid "Purchase Order Cancel Reasons"
-msgstr ""
+msgstr "Причини скасування замовлення на закупівлю"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__reason_id
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__name
 msgid "Reason"
-msgstr ""
+msgstr "Причина"
 
 #. module: purchase_cancel_reason
 #. odoo-python
@@ -139,8 +138,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_cancel_reason/models/purchase_order.py:0
 msgid ""
-"You cannot cancel any of the selected orders as they are all in 'Done' or "
-"'Canceled' state:\n"
+"You cannot cancel any of the selected orders as they are all in 'Done' or 'Canceled' state:\n"
 "%s"
 msgstr ""
 

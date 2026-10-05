@@ -1,0 +1,106 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__create_uid
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__create_date
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__date_begin
+msgid "Date Begin"
+msgstr "Дата початку"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__date_end
+msgid "Date End"
+msgstr "Дата завершення"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__display_name
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__is_modified
+msgid "Is Modified"
+msgstr "Змінено"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__price_unit
+#: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
+msgid "Price"
+msgstr "Ціна"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__product_category_ids
+msgid "Product Categories"
+msgstr "Категорії товарів"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__product_name
+msgid "Product Name"
+msgstr "Назва товару"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__line_ids
+msgid "Products"
+msgstr "Товари"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_included
+#: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
+msgid "Qty"
+msgstr "Кількість"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_available
+#: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
+msgid "Qty On Hand"
+msgstr "Кількість в наявності"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_received
+#: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
+msgid "Qty Received"
+msgstr "Отримана кількість"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__partner_id
+msgid "Vendor"
+msgstr "Постачальник"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__warehouse_ids
+msgid "Warehouse"
+msgstr "Склад"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__wizard_id
+msgid "Wizard"
+msgstr "Майстер"
