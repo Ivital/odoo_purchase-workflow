@@ -63,3 +63,36 @@ msgstr "Використовувати валюту рахунку"
 #: model:ir.model.fields.selection,name:purchase_manual_currency.selection__res_company__manual_currency_po_inv__currency_po
 msgid "Use currency purchase"
 msgstr "Використовувати валюту закупівлі"
+
+#. module: purchase_manual_currency
+#. odoo-python
+#: code:addons/purchase_manual_currency/models/purchase.py:0
+msgid "%(company_currency_name)s per 1 %(rate_currency_name)s"
+msgstr "%(company_currency_name)s за 1 %(rate_currency_name)s"
+
+#. module: purchase_manual_currency
+#. odoo-python
+#: code:addons/purchase_manual_currency/models/purchase.py:0
+msgid "%(rate_currency_name)s per 1 %(company_currency_name)s"
+msgstr "%(rate_currency_name)s за 1 %(company_currency_name)s"
+
+#. module: purchase_manual_currency
+#. odoo-python
+#: code:addons/purchase_manual_currency/models/purchase.py:0
+msgid ""
+"In invoice cannot have a mixture of different manual currency rates in "
+"purchases."
+msgstr ""
+"Рахунок закупівлі не може містити суміш різних ручних валютних курсів."
+
+#. module: purchase_manual_currency
+#. odoo-python
+#: code:addons/purchase_manual_currency/models/purchase.py:0
+msgid "In invoice cannot have a mixture of different manual currency."
+msgstr "Рахунок не може містити суміш різних ручних валют."
+
+#. module: purchase_manual_currency
+#. odoo-python
+#: code:addons/purchase_manual_currency/models/purchase.py:0
+msgid "Rate currency can refresh state draft only."
+msgstr "Курс валюти можна оновлювати лише в стані чернетки."

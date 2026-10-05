@@ -103,3 +103,15 @@ msgid ""
 msgstr ""
 "Погодження заблоковано,\n"
 "                із зазначенням причини блокування."
+
+#. module: purchase_order_approval_block
+#. odoo-python
+#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
+msgid "Order \"%(order_name)s\" blocked with reason \"%(block_name)s\""
+msgstr "Замовлення \"%(order_name)s\" заблоковано з причини \"%(block_name)s\""
+
+#. module: purchase_order_approval_block
+#. odoo-python
+#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
+msgid "Order \"%s\" approval block released."
+msgstr "Блок схвалення замовлення \"%s\" знято."

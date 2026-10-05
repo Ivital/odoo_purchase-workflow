@@ -23,3 +23,13 @@ msgstr "Попередження"
 #: model:ir.model.fields,field_description:product_supplierinfo_qty_multiplier.field_product_supplierinfo__multiplier_qty
 msgid "Multiplier Qty"
 msgstr "Кратність кількості"
+
+#. module: product_supplierinfo_qty_multiplier
+#. odoo-python
+#: code:addons/product_supplierinfo_qty_multiplier/models/purchase_order_line.py:0
+msgid ""
+"The selected supplier only sells this product by %(multiplier_qty)s %(uom_name)s.\n"
+"The quantity has been automatically changed to %(new_product_qty)s %(uom_name)s."
+msgstr ""
+"Вибраний постачальник продає цей товар лише по %(multiplier_qty)s %(uom_name)s.\n"
+"Кількість автоматично змінено на %(new_product_qty)s %(uom_name)s."

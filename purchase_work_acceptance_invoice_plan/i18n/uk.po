@@ -223,3 +223,27 @@ msgstr "Майстер вибору приймання робіт"
 #: model:ir.model.constraint,message:purchase_work_acceptance_invoice_plan.constraint_select_work_acceptance_invoice_plan_qty_order_line_unique
 msgid "You are selecting same product line more than one."
 msgstr "Ви вибираєте той самий рядок товару більше одного разу."
+
+#. module: purchase_work_acceptance_invoice_plan
+#. odoo-python
+#: code:addons/purchase_work_acceptance_invoice_plan/wizard/select_work_acceptance_invoice_plan_wizard.py:0
+msgid "Installment Warning:"
+msgstr "Попередження про розстрочку:"
+
+#. module: purchase_work_acceptance_invoice_plan
+#. odoo-python
+#: code:addons/purchase_work_acceptance_invoice_plan/wizard/select_work_acceptance_invoice_plan_wizard.py:0
+msgid "No product line with matched amount!"
+msgstr "Немає рядка товару з відповідною сумою!"
+
+#. module: purchase_work_acceptance_invoice_plan
+#. odoo-python
+#: code:addons/purchase_work_acceptance_invoice_plan/wizard/select_work_acceptance_invoice_plan_wizard.py:0
+msgid "Please register deposit first."
+msgstr "Спочатку зареєструйте депозит."
+
+#. module: purchase_work_acceptance_invoice_plan
+#. odoo-python
+#: code:addons/purchase_work_acceptance_invoice_plan/wizard/select_work_acceptance_invoice_plan_wizard.py:0
+msgid "Total purchase amount must not be zero!"
+msgstr "Загальна сума закупівлі не може дорівнювати нулю!"

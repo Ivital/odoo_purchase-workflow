@@ -67,3 +67,15 @@ msgid ""
 "Set the purchase line discount field in which the discounts will be applied."
 msgstr ""
 "Укажіть поле знижки рядка закупівлі, до якого застосовуватимуться знижки."
+
+#. module: purchase_order_general_discount
+#. odoo-python
+#: code:addons/purchase_order_general_discount/models/res_company.py:0
+msgid "Discount 2"
+msgstr "Знижка 2"
+
+#. module: purchase_order_general_discount
+#. odoo-python
+#: code:addons/purchase_order_general_discount/models/res_company.py:0
+msgid "Discount 3"
+msgstr "Знижка 3"

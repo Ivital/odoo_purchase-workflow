@@ -129,3 +129,9 @@ msgstr "Посилання на запит"
 #: model:ir.model,name:purchase_request_type.model_purchase_request_type
 msgid "Type of purchase request"
 msgstr "Тип запиту на закупівлю"
+
+#. module: purchase_request_type
+#. odoo-python
+#: code:addons/purchase_request_type/models/purchase_request.py:0
+msgid "Document's company and type's company mismatch"
+msgstr "Компанія документа не відповідає компанії типу"

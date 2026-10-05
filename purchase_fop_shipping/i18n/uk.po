@@ -56,3 +56,13 @@ msgstr "Досягнуто доставки без оплати"
 #: model:ir.model.fields,help:purchase_fop_shipping.field_purchase_order__fop_shipping
 msgid "Min purchase order amount for Free-Of-Payment shipping"
 msgstr "Мінімальна сума замовлення на закупівлю для доставки без оплати"
+
+#. module: purchase_fop_shipping
+#. odoo-python
+#: code:addons/purchase_fop_shipping/models/purchase.py:0
+msgid ""
+"You cannot confirm a purchase order with amount under FOP shipping. To force"
+" confirm you must belongs to \"FOP shipping Manager\"."
+msgstr ""
+"Не можна підтвердити замовлення на закупівлю із сумою нижче FOP shipping. "
+"Для примусового підтвердження потрібно належати до «FOP shipping Manager»."

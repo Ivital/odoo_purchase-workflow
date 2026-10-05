@@ -260,3 +260,9 @@ msgstr ""
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_products
 msgid "Useful if a product hasn't been selled by the partner yet"
 msgstr "Корисно, якщо партнер ще не продавав цей товар"
+
+#. module: purchase_order_product_recommendation
+#. odoo-python
+#: code:addons/purchase_order_product_recommendation/wizards/purchase_order_recommendation.py:0
+msgid "This wizard is only valid for purchases"
+msgstr "Цей майстер дійсний лише для закупівель"

@@ -368,3 +368,47 @@ msgstr "Цей відсоток використовуватиметься дл�
 #: model:ir.model,name:purchase_invoice_plan.model_purchase_make_planned_invoice
 msgid "Wizard when create invoice by plan"
 msgstr "Майстер створення рахунка за планом"
+
+#. module: purchase_invoice_plan
+#. odoo-python
+#: code:addons/purchase_invoice_plan/models/purchase_invoice_plan.py:0
+msgid ""
+"Installment %s: already used and not allowed to delete.\n"
+"Please discard changes."
+msgstr ""
+"Платіж %s уже використовується, тому його не можна видалити.\n"
+"Скасуйте зміни."
+
+#. module: purchase_invoice_plan
+#. odoo-python
+#: code:addons/purchase_invoice_plan/models/purchase_order.py:0
+msgid "Invoice plan total percentage must not exceed 100%"
+msgstr "Загальний відсоток плану рахунків не може перевищувати 100%"
+
+#. module: purchase_invoice_plan
+#. odoo-python
+#: code:addons/purchase_invoice_plan/wizard/purchase_create_invoice_plan.py:0
+msgid "Number Installment must greater than 1"
+msgstr "Кількість платежів має бути більшою за 1"
+
+#. module: purchase_invoice_plan
+#. odoo-python
+#: code:addons/purchase_invoice_plan/models/purchase_invoice_plan.py:0
+msgid ""
+"Plan quantity: %(plan)s, exceed invoiceable quantity: %(qty)s\n"
+"Product should be delivered before invoice"
+msgstr ""
+"Планова кількість: %(plan)s, перевищує кількість для виставлення рахунку: %(qty)s\n"
+"Товар має бути доставлений до виставлення рахунку"
+
+#. module: purchase_invoice_plan
+#. odoo-python
+#: code:addons/purchase_invoice_plan/models/purchase_order.py:0
+msgid "Please fill percentage for all invoice plan lines"
+msgstr "Заповніть відсоток для всіх рядків плану рахунків"
+
+#. module: purchase_invoice_plan
+#. odoo-python
+#: code:addons/purchase_invoice_plan/models/purchase_order.py:0
+msgid "Use Invoice Plan selected, but no plan created"
+msgstr "Вибрано використання плану рахунків, але план не створено"

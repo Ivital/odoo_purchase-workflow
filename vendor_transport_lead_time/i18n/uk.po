@@ -68,3 +68,9 @@ msgstr "Термін постачання постачальника в днях
 #: model:ir.model.fields,help:vendor_transport_lead_time.field_product_supplierinfo__transport_delay
 msgid "Transport lead time in days."
 msgstr "Термін транспортування в днях."
+
+#. module: vendor_transport_lead_time
+#. odoo-python
+#: code:addons/vendor_transport_lead_time/models/product_supplierinfo.py:0
+msgid "You can't set a delay inferior to the transport delay."
+msgstr "Не можна встановити затримку меншу за транспортну затримку."

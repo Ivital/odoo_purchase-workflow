@@ -118,7 +118,7 @@ msgstr "Причина"
 #. odoo-python
 #: code:addons/purchase_cancel_reason/models/purchase_order.py:0
 msgid "Reason for Cancellation"
-msgstr ""
+msgstr "Причина скасування"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order__cancel_reason_id
@@ -143,6 +143,8 @@ msgid ""
 "You cannot cancel any of the selected orders as they are all in 'Done' or 'Canceled' state:\n"
 "%s"
 msgstr ""
+"Не можна скасувати жодне з вибраних замовлень, оскільки всі вони у стані «Виконано» або «Скасовано»:\n"
+"%s"
 
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel

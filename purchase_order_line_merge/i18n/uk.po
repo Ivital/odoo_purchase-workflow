@@ -148,3 +148,27 @@ msgstr "Об’єднати рядки замовлення на закупів�
 #: model:ir.model,name:purchase_order_line_merge.model_purchase_order_line_merge_line
 msgid "Purchase Order Line Merge Line"
 msgstr "Рядок об’єднання рядків замовлення на закупівлю"
+
+#. module: purchase_order_line_merge
+#. odoo-python
+#: code:addons/purchase_order_line_merge/wizard/purchase_order_line_merge.py:0
+msgid ""
+"Cannot merge lines from different warehouses. Please select lines with the "
+"same warehouse."
+msgstr ""
+"Не можна об’єднувати рядки з різних складів. Виберіть рядки одного складу."
+
+#. module: purchase_order_line_merge
+#. odoo-python
+#: code:addons/purchase_order_line_merge/wizard/purchase_order_line_merge.py:0
+msgid ""
+"Cannot merge lines with different currencies. Please select lines with the "
+"same currency."
+msgstr ""
+"Не можна об’єднувати рядки в різних валютах. Виберіть рядки в одній валюті."
+
+#. module: purchase_order_line_merge
+#. odoo-python
+#: code:addons/purchase_order_line_merge/wizard/purchase_order_line_merge.py:0
+msgid "No lines with quantity greater than zero to merge."
+msgstr "Немає рядків із кількістю понад нуль для об’єднання."

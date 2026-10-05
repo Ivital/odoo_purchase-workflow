@@ -22,7 +22,7 @@ msgstr ""
 #: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0
 #, python-format
 msgid "<li><b>%(name)s</b>: Total bid quantity %(qty)s %(uom)s</li>"
-msgstr ""
+msgstr "<li><b>%(name)s</b>: Загальна кількість заявки %(qty)s %(uom)s</li>"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
@@ -59,6 +59,7 @@ msgstr "Торги завершено"
 #, python-format
 msgid "Bid confirmation %(bid_name)s for your Request %(request_name)s"
 msgstr ""
+"Підтвердження пропозиції %(bid_name)s для вашого запиту %(request_name)s"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
@@ -99,7 +100,7 @@ msgstr "Назва для відображення"
 #: code:addons/purchase_request_to_requisition/wizard/purchase_request_line_make_purchase_requisition.py:0
 #, python-format
 msgid "Enter a positive quantity."
-msgstr ""
+msgstr "Введіть додатну кількість."
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
@@ -286,6 +287,8 @@ msgid ""
 "The following requested items from Purchase Request %(request_name)s have "
 "now being sent to Suppliers using Purchase Bid %(bid_name)s:"
 msgstr ""
+"Такі запитані елементи із запиту на закупівлю %(request_name)s тепер "
+"надіслано постачальникам через тендер %(bid_name)s:"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__product_uom_id
@@ -301,7 +304,7 @@ msgstr "Майстер"
 #: code:addons/purchase_request_to_requisition/models/purchase_request.py:0
 #, python-format
 msgid "You cannot delete a record that refers to purchase lines!"
-msgstr ""
+msgstr "Не можна видалити запис, що посилається на рядки закупівлі!"
 
 #. module: purchase_request_to_requisition
 #: code:addons/purchase_request_to_requisition/wizard/purchase_request_line_make_purchase_requisition.py:0

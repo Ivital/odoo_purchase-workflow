@@ -319,3 +319,31 @@ msgstr "Є кількість в очікуванні на отримання, �
 #: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__qty
 msgid "This is the quantity taken into account to create the picking"
 msgstr "Це кількість, яка враховується для створення комплектування"
+
+#. module: purchase_manual_delivery
+#. odoo-python
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
+msgid "Please select one partner at a time"
+msgstr "Будь ласка, вибирайте по одному партнеру"
+
+#. module: purchase_manual_delivery
+#. odoo-python
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
+msgid "Please select one purchase order at a time"
+msgstr "Будь ласка, вибирайте по одному замовленню на закупівлю"
+
+#. module: purchase_manual_delivery
+#. odoo-javascript
+#: code:addons/purchase_manual_delivery/static/src/purchase_manual_delivery_forecasted/forecasted_details.xml:0
+msgid "Requests without delivery"
+msgstr "Запити без доставки"
+
+#. module: purchase_manual_delivery
+#. odoo-python
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
+msgid ""
+"You can not receive more than the remaining quantity. If you need to do so, "
+"please edit the purchase order first."
+msgstr ""
+"Не можна отримати більше за залишкову кількість. Якщо це потрібно, спочатку "
+"змініть замовлення на закупівлю."

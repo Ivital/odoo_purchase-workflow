@@ -195,3 +195,33 @@ msgstr "Неправильна ставка штрафу, вона має бут
 #: model:ir.model.constraint,message:purchase_work_acceptance_late_fines.constraint_work_acceptance_late_days
 msgid "Wrong Late Days, it must be positive!"
 msgstr "Неправильна кількість днів прострочення, має бути додатною!"
+
+#. module: purchase_work_acceptance_late_fines
+#. odoo-python
+#: code:addons/purchase_work_acceptance_late_fines/models/work_acceptance.py:0
+msgid "Fines Invoice/Refund"
+msgstr "Рахунок/повернення штрафів"
+
+#. module: purchase_work_acceptance_late_fines
+#. odoo-python
+#: code:addons/purchase_work_acceptance_late_fines/models/work_acceptance.py:0
+msgid "Invoice already created for %s"
+msgstr "Рахунок уже створено для %s"
+
+#. module: purchase_work_acceptance_late_fines
+#. odoo-python
+#: code:addons/purchase_work_acceptance_late_fines/models/work_acceptance.py:0
+msgid "No fine invoices"
+msgstr "Немає рахунків зі штрафами"
+
+#. module: purchase_work_acceptance_late_fines
+#. odoo-python
+#: code:addons/purchase_work_acceptance_late_fines/models/work_acceptance.py:0
+msgid "No late fines on work acceptance(s)"
+msgstr "Немає штрафів за прострочення приймання робіт"
+
+#. module: purchase_work_acceptance_late_fines
+#. odoo-python
+#: code:addons/purchase_work_acceptance_late_fines/models/work_acceptance.py:0
+msgid "Work Acceptance Late Delivery Fines %s"
+msgstr "Штрафи за прострочення приймання робіт %s"

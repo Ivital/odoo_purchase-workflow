@@ -17,3 +17,23 @@ msgstr ""
 #: model:mail.message.subtype,name:purchase_reception_notify.mt_purchase_reception
 msgid "Purchase Receptions"
 msgstr "Отримання закупівель"
+
+#. module: purchase_reception_notify
+#. odoo-python
+#: code:addons/purchase_reception_notify/models/stock_picking.py:0
+msgid ""
+"<li><b>%(display_name)s</b>: Received quantity %(product_qty)s %(uom)s</li>"
+msgstr ""
+"<li><b>%(display_name)s</b>: Отримана кількість %(product_qty)s %(uom)s</li>"
+
+#. module: purchase_reception_notify
+#. odoo-python
+#: code:addons/purchase_reception_notify/models/stock_picking.py:0
+msgid "Receipt confirmation {}"
+msgstr "Підтвердження отримання {}"
+
+#. module: purchase_reception_notify
+#. odoo-python
+#: code:addons/purchase_reception_notify/models/stock_picking.py:0
+msgid "The following items have now been received in Incoming Shipment {}:"
+msgstr "Такі елементи тепер отримано у вхідному відправленні {}:"

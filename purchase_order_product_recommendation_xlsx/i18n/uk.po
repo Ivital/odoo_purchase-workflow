@@ -74,3 +74,21 @@ msgstr "Рекомендований товар для поточного зам
 #: model:ir.model,name:purchase_order_product_recommendation_xlsx.model_purchase_order_recommendation
 msgid "Recommended products for current purchase order"
 msgstr "Рекомендовані товари для поточного замовлення на закупівлю"
+
+#. module: purchase_order_product_recommendation_xlsx
+#. odoo-python
+#: code:addons/purchase_order_product_recommendation_xlsx/report/recommendation_xlsx.py:0
+msgid "Date begin:"
+msgstr "Дата початку:"
+
+#. module: purchase_order_product_recommendation_xlsx
+#. odoo-python
+#: code:addons/purchase_order_product_recommendation_xlsx/report/recommendation_xlsx.py:0
+msgid "Date end:"
+msgstr "Дата завершення:"
+
+#. module: purchase_order_product_recommendation_xlsx
+#. odoo-python
+#: code:addons/purchase_order_product_recommendation_xlsx/report/recommendation_xlsx.py:0
+msgid "Recommended products for supplier:"
+msgstr "Рекомендовані товари для постачальника:"

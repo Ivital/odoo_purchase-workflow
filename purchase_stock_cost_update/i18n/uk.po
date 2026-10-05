@@ -71,3 +71,9 @@ msgstr "Різниця оцінки"
 #: model:ir.model.fields,field_description:purchase_stock_cost_update.field_purchase_order__valuation_difference_report
 msgid "Valuation Difference Report"
 msgstr "Звіт про різницю оцінки"
+
+#. module: purchase_stock_cost_update
+#. odoo-python
+#: code:addons/purchase_stock_cost_update/models/purchase_order.py:0
+msgid "Price difference layer created from %(line)s"
+msgstr "Шар різниці ціни створено з %(line)s"

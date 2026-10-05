@@ -25,6 +25,8 @@ msgid ""
 "<li><b>%(prl_name)s</b>: Ordered quantity %(prl_qty)s %(prl_uom)s, Planned "
 "date %(prl_date_planned)s</li>"
 msgstr ""
+"<li><b>%(prl_name)s</b>: Замовлена кількість %(prl_qty)s %(prl_uom)s, "
+"запланована дата %(prl_date_planned)s</li>"
 
 #. module: purchase_request
 #. odoo-python
@@ -33,6 +35,8 @@ msgid ""
 "<li><b>%(product_name)s</b>: Received quantity %(product_qty)s "
 "%(product_uom)s</li>"
 msgstr ""
+"<li><b>%(product_name)s</b>: Отримана кількість %(product_qty)s "
+"%(product_uom)s</li>"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
@@ -150,6 +154,8 @@ msgid ""
 "A sale/manufacturing order that generated this purchase request has been "
 "cancelled/deleted. Check if an action is needed."
 msgstr ""
+"Замовлення продажу/виробництва, що створило цей запит на закупівлю, "
+"скасовано/видалено. Перевірте, чи потрібні дії."
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_needaction
@@ -380,7 +386,7 @@ msgstr "Опис"
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_request_line.py:0
 msgid "Detailed Line"
-msgstr ""
+msgstr "Детальний рядок"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__display_name
@@ -419,13 +425,13 @@ msgstr "Чернетка"
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "Enter a positive quantity."
-msgstr ""
+msgstr "Введіть додатну кількість."
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "Enter a supplier."
-msgstr ""
+msgstr "Введіть постачальника."
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__estimated_cost
@@ -470,6 +476,7 @@ msgid ""
 "From last reception this quantity has been allocated to this purchase "
 "request"
 msgstr ""
+"Від останнього приймання цю кількість виділено цьому запиту на закупівлю"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
@@ -699,7 +706,7 @@ msgstr "Посилання на замовлення"
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_order.py:0
 msgid "Order confirmation %(po_name)s for your Request %(pr_name)s"
-msgstr ""
+msgstr "Підтвердження замовлення %(po_name)s для вашого запиту %(pr_name)s"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__orderpoint_id
@@ -736,7 +743,7 @@ msgstr "Переміщення"
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "Please select a product for all lines"
-msgstr ""
+msgstr "Будь ласка, виберіть товар для всіх рядків"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__supplier_id
@@ -842,13 +849,13 @@ msgstr "Запит на закупівлю"
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_order.py:0
 msgid "Purchase Request %s has already been completed"
-msgstr ""
+msgstr "Запит на закупівлю %s уже завершено"
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "Purchase Request %s is not approved or in progress"
-msgstr ""
+msgstr "Запит на закупівлю %s не схвалено або не виконується"
 
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_request_allocation
@@ -1041,13 +1048,14 @@ msgstr "Кількість RFQ/PO"
 #. odoo-python
 #: code:addons/purchase_request/models/stock_move_line.py:0
 msgid "Receipt confirmation for Request {name}"
-msgstr ""
+msgstr "Підтвердження отримання для запиту {name}"
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/models/stock_move_line.py:0
 msgid "Receipt confirmation {picking_name} for your Request {request_name}"
 msgstr ""
+"Підтвердження отримання {picking_name} для вашого запиту {request_name}"
 
 #. module: purchase_request
 #: model:mail.message.subtype,description:purchase_request.mt_request_picking_done
@@ -1190,7 +1198,7 @@ msgstr "Рядок замовлення на закупівлю послуг"
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_order.py:0
 msgid "Service confirmation for Request {request_name}"
-msgstr ""
+msgstr "Підтвердження обслуговування для запиту {request_name}"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line_make_purchase_order_item__keep_description
@@ -1289,7 +1297,7 @@ msgstr "Постачальник"
 #: code:addons/purchase_request/models/stock_move.py:0
 msgid ""
 "The company of the purchase request must match with that of the location."
-msgstr ""
+msgstr "Компанія запиту на закупівлю має відповідати компанії місця."
 
 #. module: purchase_request
 #. odoo-python
@@ -1298,6 +1306,8 @@ msgid ""
 "The following requested items from Purchase Request %(pr_name)s have now "
 "been confirmed in Purchase Order %(po_name)s:"
 msgstr ""
+"Такі запитані елементи із запиту на закупівлю %(pr_name)s тепер підтверджено"
+" в замовленні на закупівлю %(po_name)s:"
 
 #. module: purchase_request
 #. odoo-python
@@ -1306,6 +1316,8 @@ msgid ""
 "The following requested items from Purchase Request {request_name} have now "
 "been received in {location_name} using Picking {picking_name}:"
 msgstr ""
+"Такі запитані елементи із запиту на закупівлю {request_name} тепер отримано "
+"в {location_name} через переміщення {picking_name}:"
 
 #. module: purchase_request
 #. odoo-python
@@ -1314,6 +1326,8 @@ msgid ""
 "The following requested items from Purchase Request {request_name} requested"
 " by {requestor} have now been received in {location_name}:"
 msgstr ""
+"Такі запитані елементи із запиту на закупівлю {request_name}, запитані "
+"{requestor}, тепер отримано в {location_name}:"
 
 #. module: purchase_request
 #. odoo-python
@@ -1322,12 +1336,14 @@ msgid ""
 "The following requested services from Purchase Request {request_name} "
 "requested by {requestor} have now been received:"
 msgstr ""
+"Такі запитані послуги із запиту на закупівлю {request_name}, запитані "
+"{requestor}, тепер отримано:"
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "The purchase has already been completed."
-msgstr ""
+msgstr "Закупівлю вже завершено."
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__qty_to_buy
@@ -1365,7 +1381,7 @@ msgstr "Відстеження"
 #. odoo-python
 #: code:addons/purchase_request/models/stock_move_line.py:0
 msgid "Transferred quantity"
-msgstr ""
+msgstr "Передана кількість"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_exception_decoration
@@ -1439,13 +1455,15 @@ msgid ""
 "You can only delete a purchase request line if the purchase request is in "
 "draft state."
 msgstr ""
+"Рядок запиту на закупівлю можна видалити лише якщо запит перебуває у стані "
+"чернетки."
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_request.py:0
 msgid ""
 "You can't request an approval for a purchase request which is empty. (%s)"
-msgstr ""
+msgstr "Не можна запитати схвалення порожнього запиту на закупівлю. (%s)"
 
 #. module: purchase_request
 #. odoo-python
@@ -1454,33 +1472,35 @@ msgid ""
 "You cannot create a single purchase order from purchase requests that have "
 "different procurement group."
 msgstr ""
+"Не можна створити одне замовлення на закупівлю з запитів на закупівлю з "
+"різними групами забезпечення."
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_request.py:0
 msgid "You cannot delete a purchase request which is not draft."
-msgstr ""
+msgstr "Не можна видалити запит на закупівлю, який не є чернеткою."
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_request_line.py:0
 msgid "You cannot delete a record that refers to purchase lines!"
-msgstr ""
+msgstr "Не можна видалити запис, що посилається на рядки закупівлі!"
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "You have to enter a Picking Type."
-msgstr ""
+msgstr "Потрібно ввести тип комплектування."
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "You have to select lines from the same Picking Type."
-msgstr ""
+msgstr "Потрібно вибрати рядки одного типу переміщення."
 
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
 msgid "You have to select lines from the same company."
-msgstr ""
+msgstr "Потрібно вибрати рядки однієї компанії."

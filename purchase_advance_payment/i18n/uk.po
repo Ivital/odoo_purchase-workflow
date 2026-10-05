@@ -235,3 +235,15 @@ msgstr "Авансові платежі постачальнику"
 #: model:ir.model,name:purchase_advance_payment.model_account_voucher_wizard_purchase
 msgid "Account Voucher Wizard Purchase"
 msgstr "Майстер закупівельного ваучера рахунку"
+
+#. module: purchase_advance_payment
+#. odoo-python
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
+msgid "Amount of advance is greater than residual amount on purchase"
+msgstr "Сума авансу перевищує залишкову суму закупівлі"
+
+#. module: purchase_advance_payment
+#. odoo-python
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
+msgid "Amount of advance must be positive."
+msgstr "Сума авансу має бути додатною."

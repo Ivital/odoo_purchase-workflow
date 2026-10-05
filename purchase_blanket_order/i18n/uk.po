@@ -748,3 +748,147 @@ msgstr ""
 #: model:ir.model,name:purchase_blanket_order.model_purchase_blanket_order_wizard_line
 msgid "Purchase Blanket Order Wizard Line"
 msgstr "Рядок майстра рамкового замовлення закупівлі"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid "All lines have already been completed."
+msgstr "Усі рядки вже завершено."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid "An order can't be empty"
+msgstr "Замовлення не може бути порожнім"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid ""
+"Can not create Purchase Order from Blanket Order lines with different "
+"currencies"
+msgstr ""
+"Не можна створити замовлення на закупівлю з рядків рамкового замовлення в "
+"різних валютах"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/purchase_order.py:0
+msgid ""
+"Cannot confirm order %s as one of the lines refers to a blanket order that "
+"has no remaining quantity."
+msgstr ""
+"Не можна підтвердити замовлення %s, оскільки один із рядків посилається на "
+"рамкове замовлення без залишкової кількості."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "Must have some lines"
+msgstr "Потрібні рядки"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "Partner is mandatory"
+msgstr "Партнер обов’язковий"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "Price must be greater than zero"
+msgstr "Ціна має бути більшою за нуль"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid "Purchase Blanket Order %s is not open"
+msgstr "Рамкове замовлення на закупівлю %s не відкрите"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "Quantity must be greater than zero"
+msgstr "Кількість має бути більшою за нуль"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/purchase_order.py:0
+msgid ""
+"Schedule dates defined on the Purchase Order Line and on the Blanket Order "
+"Line do not match."
+msgstr ""
+"Заплановані дати в рядку замовлення на закупівлю та рядку рамкового "
+"замовлення не збігаються."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/purchase_order.py:0
+msgid ""
+"The currency of the blanket order must match with that of the purchase "
+"order."
+msgstr ""
+"Валюта рамкового замовлення має збігатися з валютою замовлення на закупівлю."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/purchase_order.py:0
+msgid "The vendor must be equal to the blanket order lines vendor"
+msgstr ""
+"Постачальник має відповідати постачальнику рядків рамкового замовлення"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "Validity date is mandatory"
+msgstr "Дата чинності обов’язкова"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "Validity date must be in the future"
+msgstr "Дата чинності має бути в майбутньому"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid ""
+"You can not delete a blanket order with opened purchase orders! Try to "
+"cancel them before."
+msgstr ""
+"Не можна видалити рамкове замовлення з відкритими замовленнями на закупівлю!"
+" Спочатку спробуйте їх скасувати."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "You can not delete an open blanket order! Try to cancel it before."
+msgstr ""
+"Не можна видалити відкрите рамкове замовлення! Спочатку спробуйте його "
+"скасувати."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid "You can't create a purchase order from an expired blanket order!"
+msgstr ""
+"Не можна створити замовлення на закупівлю з простроченого рамкового "
+"замовлення!"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid "You can't order more than the remaining quantities"
+msgstr "Не можна замовити більше за залишкову кількість"
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py:0
+msgid "You have to select lines from the same company."
+msgstr "Потрібно вибрати рядки однієї компанії."
+
+#. module: purchase_blanket_order
+#. odoo-python
+#: code:addons/purchase_blanket_order/models/blanket_orders.py:0
+msgid "remaining"
+msgstr "залишок"

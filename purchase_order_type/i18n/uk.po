@@ -72,7 +72,7 @@ msgstr "Назва для відображення"
 #. odoo-python
 #: code:addons/purchase_order_type/models/purchase_order.py:0
 msgid "Document's company and type's company mismatch"
-msgstr ""
+msgstr "Компанія документа не відповідає компанії типу"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__sequence_id
@@ -115,7 +115,7 @@ msgstr "Назва"
 #. odoo-python
 #: code:addons/purchase_order_type/models/purchase_order_type.py:0
 msgid "Only one default order type is allowed per company."
-msgstr ""
+msgstr "Для кожної компанії дозволений лише один типовий тип замовлення."
 
 #. module: purchase_order_type
 #: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
