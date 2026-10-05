@@ -128,3 +128,151 @@ msgstr "Тип"
 #: model:ir.model.fields.selection,name:purchase_invoice_plan.selection__purchase_create_invoice_plan__interval_type__year
 msgid "Year"
 msgstr "Рік"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__amount_invoiced
+msgid "Amount Invoiced"
+msgstr "Виставлена сума"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.purchase_order_form
+msgid "Are you sure to remove this invoice plan?"
+msgstr "Ви впевнені, що хочете видалити цей план рахунків?"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Bills Received"
+msgstr "Отримані рахунки постачальників"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_create_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_invoice_plan
+#: model:ir.actions.act_window,name:purchase_invoice_plan.action_purchase_create_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_create_invoice_plan
+msgid "Create Invoice Plan"
+msgstr "Створити план рахунків"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
+msgid "Create Next Bill"
+msgstr "Створити наступний рахунок"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__installment_date
+msgid "Installment Date"
+msgstr "Дата внеску"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__interval_type
+msgid "Interval Type"
+msgstr "Тип інтервалу"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__invoiced
+msgid "Invoice Created"
+msgstr "Рахунок створено"
+
+#. module: purchase_invoice_plan
+#: model:ir.actions.act_window,name:purchase_invoice_plan.action_view_purchase_make_planned_invoice
+msgid "Invoice Order"
+msgstr "Порядок рахунків"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_order__ip_invoice_plan
+msgid "Invoice Plan In Process"
+msgstr "План рахунків у процесі"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__last
+msgid "Last Installment"
+msgstr "Останній внесок"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_uid
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__write_uid
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_make_planned_invoice__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_date
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__write_date
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_make_planned_invoice__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields.selection,name:purchase_invoice_plan.selection__purchase_create_invoice_plan__interval_type__month
+msgid "Month"
+msgstr "Місяць"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__num_installment
+msgid "Number of Installment"
+msgstr "Кількість внесків"
+
+#. module: purchase_invoice_plan
+#: model:ir.model,name:purchase_invoice_plan.model_purchase_order
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Purchase Orders"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__purchase_id
+msgid "Purchases Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_form
+msgid "Related Bills"
+msgstr "Пов’язані рахунки постачальників"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.actions.act_window,help:purchase_invoice_plan.action_purchase_invoice_plan
+msgid "This view show all available invoice plan line for reporting purposes"
+msgstr ""
+"Це представлення показує всі доступні рядки плану рахунків для звітності"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_create_invoice_plan
+msgid "This wizard help you quickly create invoice plan."
+msgstr "Цей майстер допоможе швидко створити план рахунків."
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "To Approve"
+msgstr "На схвалення"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_order__use_invoice_plan
+msgid "Use Invoice Plan"
+msgstr "Використовувати план рахунків"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Waiting Bills"
+msgstr "Очікування рахунків"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.purchase_order_form
+msgid "⇒ Create Invoice Plan"
+msgstr "⇒ Створити план рахунків"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.purchase_order_form
+msgid "⇒ Remove Invoice Plan"
+msgstr "⇒ Видалити план рахунків"

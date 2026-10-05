@@ -32,7 +32,7 @@ msgstr ""
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "At least a PO has been confirmed"
-msgstr ""
+msgstr "Принаймні одне PO підтверджено"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
@@ -52,7 +52,7 @@ msgstr "Статус ставки"
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "Bid completed"
-msgstr ""
+msgstr "Торги завершено"
 
 #. module: purchase_request_to_requisition
 #: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0
@@ -70,7 +70,7 @@ msgstr "Скасувати"
 #: model:ir.actions.act_window,name:purchase_request_to_requisition.action_purchase_request_make_purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
 msgid "Create Purchase Agreements"
-msgstr ""
+msgstr "Створювати угоди про закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__create_uid
@@ -148,12 +148,12 @@ msgstr "Останнє оновлення"
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "New Bid"
-msgstr ""
+msgstr "Нова ставка"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "No Bid"
-msgstr ""
+msgstr "Без ставки"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
@@ -169,7 +169,7 @@ msgstr ""
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_requisition_form
 msgid "PR Lines"
-msgstr ""
+msgstr "Рядки PR"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_requisition_form
@@ -191,20 +191,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__purchase_requisition_id
 #, python-format
 msgid "Purchase Agreement"
-msgstr ""
+msgstr "Угода про закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__requisition_lines
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_form
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_details
 msgid "Purchase Agreement Lines"
-msgstr ""
+msgstr "Рядки угоди про закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model,name:purchase_request_to_requisition.model_purchase_request
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__request_id
 msgid "Purchase Request"
-msgstr ""
+msgstr "Запит на закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_requisition__purchase_request_count
@@ -215,7 +215,7 @@ msgstr ""
 #: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__line_id
 msgid "Purchase Request Line"
-msgstr ""
+msgstr "Рядок запиту на закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line_make_purchase_requisition
@@ -257,7 +257,7 @@ msgstr ""
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__product_qty
 msgid "Quantity to Bid"
-msgstr ""
+msgstr "Кількість для тендеру"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search

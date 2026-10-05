@@ -39,3 +39,18 @@ msgstr "Кількість в наявності"
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation_xlsx.field_purchase_order_recommendation_line__units_received
 msgid "Qty Received"
 msgstr "Отримана кількість"
+
+#. module: purchase_order_product_recommendation_xlsx
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation_xlsx.field_purchase_order_recommendation_line__units_virtual_available
+msgid "Forecasted Qty"
+msgstr "Прогнозована кількість"
+
+#. module: purchase_order_product_recommendation_xlsx
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation_xlsx.field_purchase_order_recommendation_line__units_avg_delivered
+msgid "Qty Dlvd./day"
+msgstr "Доставлена кількість/день"
+
+#. module: purchase_order_product_recommendation_xlsx
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation_xlsx.field_purchase_order_recommendation_line__units_delivered
+msgid "Qty delivered"
+msgstr "Доставлена кількість"

@@ -22,3 +22,8 @@ msgstr "Друк"
 #: model:ir.model.fields.selection,name:purchase_no_rfq.selection__purchase_order__state__sent
 msgid "Sent"
 msgstr "Надіслано"
+
+#. module: purchase_no_rfq
+#: model:ir.model.fields.selection,name:purchase_no_rfq.selection__purchase_order__state__draft
+msgid "Draft"
+msgstr "Чернетка"

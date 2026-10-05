@@ -17,3 +17,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_purchase_order_line__secondary_uom_id
 msgid "Second unit"
 msgstr "Друга одиниця"
+
+#. module: purchase_order_secondary_unit
+#: model_terms:ir.ui.view,arch_db:purchase_order_secondary_unit.report_purchaseorder_document
+#: model_terms:ir.ui.view,arch_db:purchase_order_secondary_unit.report_purchasequotation_document
+msgid "<strong>Second Qty</strong>"
+msgstr "<strong>Друга кількість</strong>"
+
+#. module: purchase_order_secondary_unit
+#: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_product_product__purchase_secondary_uom_id
+#: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_product_template__purchase_secondary_uom_id
+msgid "Default secondary unit for purchases"
+msgstr "Типова вторинна одиниця для закупівель"
+
+#. module: purchase_order_secondary_unit
+#: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_product_supplierinfo__secondary_uom_price
+#: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_purchase_order_line__secondary_uom_price
+msgid "Secondary Price"
+msgstr "Вторинна ціна"
+
+#. module: purchase_order_secondary_unit
+#: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_purchase_order_line__secondary_uom_qty
+msgid "Secondary Qty"
+msgstr "Вторинна кількість"
+
+#. module: purchase_order_secondary_unit
+#: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_product_supplierinfo__secondary_uom_id
+msgid "Secondary Unit"
+msgstr "Вторинна одиниця"

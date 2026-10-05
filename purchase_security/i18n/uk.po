@@ -48,3 +48,57 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_order__team_id
 msgid "Team"
 msgstr "Команда"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_purchase_team__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_purchase_team__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_security
+#: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
+msgid "Members"
+msgstr "Учасники"
+
+#. module: purchase_security
+#: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_tree
+msgid "Open Form View"
+msgstr "Відкрити форму"
+
+#. module: purchase_security
+#: model:ir.model,name:purchase_security.model_purchase_team
+#: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
+msgid "Purchase Team"
+msgstr "Команда закупівель"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_purchase_team__user_ids
+msgid "Purchase Users"
+msgstr "Користувачі закупівель"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_res_partner__purchase_user_id
+#: model:ir.model.fields,field_description:purchase_security.field_res_users__purchase_user_id
+#: model_terms:ir.ui.view,arch_db:purchase_security.view_res_partner_filter
+msgid "Purchase representative"
+msgstr "Представник із закупівель"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_res_partner__purchase_team_id
+#: model:ir.model.fields,field_description:purchase_security.field_res_users__purchase_team_id
+msgid "Purchase team"
+msgstr "Команда закупівель"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_res_users__purchase_team_ids
+msgid "Purchases Teams"
+msgstr "Команди закупівель"
+
+#. module: purchase_security
+#: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
+msgid "e.g. Europe"
+msgstr "напр., Європа"

@@ -53,3 +53,38 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: purchase_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_tier_validation.view_purchase_order_filter
+msgid "My Purchases to review"
+msgstr "Мої закупівлі для перегляду"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: purchase_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_tier_validation.view_purchase_order_filter
+msgid "Needs my Review"
+msgstr "Потребує мого перегляду"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"

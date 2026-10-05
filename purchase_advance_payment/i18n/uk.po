@@ -74,3 +74,117 @@ msgstr "Закупівля"
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_ref
 msgid "Ref."
 msgstr "Посил."
+
+#. module: purchase_advance_payment
+#: model:ir.actions.act_window,name:purchase_advance_payment.action_view_account_voucher_wizard
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Advance Payment"
+msgstr "Авансовий платіж"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__advance_payment_status
+msgid "Advance Payment Status"
+msgstr "Статус авансового платежу"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_kpis_tree
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_view_tree
+msgid "Amount Residual"
+msgstr "Залишкова сума"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__amount_advance
+msgid "Amount advanced"
+msgstr "Авансована сума"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Amount in Order Currency"
+msgstr "Сума у валюті замовлення"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_currency_id
+msgid "Journal Currency"
+msgstr "Валюта журналу"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Make advance payment"
+msgstr "Здійснити авансовий платіж"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__not_paid
+msgid "Not Paid"
+msgstr "Не сплачено"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
+msgid "Not Reconciled"
+msgstr "Не звірено"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Order Due Amount"
+msgstr "Сума до сплати за замовленням"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__paid
+msgid "Paid"
+msgstr "Сплачено"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__partial
+msgid "Partially Paid"
+msgstr "Частково сплачено"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
+msgid "Pay purchase advanced"
+msgstr "Сплатити аванс закупівлі"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_method_line_id
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_supplier_payment_tree
+msgid "Payment Sent?"
+msgstr "Платіж надіслано?"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
+msgid "Payment advances"
+msgstr "Аванси платежів"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__payment_line_ids
+msgid "Payment move lines"
+msgstr "Рядки переміщень платежу"
+
+#. module: purchase_advance_payment
+#: model:ir.model,name:purchase_advance_payment.model_purchase_order
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_form
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__amount_residual
+msgid "Residual amount"
+msgstr "Залишкова сума"

@@ -22,3 +22,9 @@ msgstr "Закупівля"
 #: model:ir.model.fields,field_description:purchase_substate.field_purchase_order__substate_id
 msgid "Sub State"
 msgstr "Підстан"
+
+#. module: purchase_substate
+#: model:ir.model,name:purchase_substate.model_purchase_order
+#: model:ir.model.fields.selection,name:purchase_substate.selection__base_substate_type__model__purchase_order
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"

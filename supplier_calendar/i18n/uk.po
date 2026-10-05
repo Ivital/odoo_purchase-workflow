@@ -9,6 +9,25 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: supplier_calendar
-#: model:ir.module.module,shortdesc:base.module_supplier_calendar model:ir.module.module,summary:base.module_supplier_calendar
+#: model:ir.module.module,shortdesc:base.module_supplier_calendar
+#: model:ir.module.module,summary:base.module_supplier_calendar
 msgid "Supplier Calendar"
 msgstr "Календар постачальника"
+
+#. module: supplier_calendar
+#: model:ir.model.fields,field_description:supplier_calendar.field_product_supplierinfo__delay_calendar_type
+#: model:ir.model.fields,field_description:supplier_calendar.field_res_partner__delay_calendar_type
+#: model:ir.model.fields,field_description:supplier_calendar.field_res_users__delay_calendar_type
+msgid "Delay Calendar Type"
+msgstr "Тип календаря затримки"
+
+#. module: supplier_calendar
+#: model:ir.model.fields,field_description:supplier_calendar.field_res_partner__factory_calendar_id
+#: model:ir.model.fields,field_description:supplier_calendar.field_res_users__factory_calendar_id
+msgid "Factory Calendar"
+msgstr "Заводський календар"
+
+#. module: supplier_calendar
+#: model:ir.model.fields.selection,name:supplier_calendar.selection__res_partner__delay_calendar_type__natural
+msgid "Natural days"
+msgstr "Календарні дні"

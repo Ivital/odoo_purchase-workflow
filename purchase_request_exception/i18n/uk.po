@@ -43,3 +43,64 @@ msgstr "Правила винятків запитів на закупівлю"
 #: model:ir.model.fields,field_description:purchase_request_exception.field_exception_rule__purchase_request_ids
 msgid "Purchase Requests"
 msgstr "Запити на закупівлю"
+
+#. module: purchase_request_exception
+#: model_terms:ir.ui.view,arch_db:purchase_request_exception.view_purchase_request_form
+msgid "<strong>There are exceptions blocking this Purchase Order:</strong>"
+msgstr "<strong>Є винятки, що блокують це замовлення на закупівлю:</strong>"
+
+#. module: purchase_request_exception
+#: model_terms:ir.ui.view,arch_db:purchase_request_exception.view_purchase_request_search
+msgid "Blocked in Draft"
+msgstr "Заблоковано в чернетці"
+
+#. module: purchase_request_exception
+#: model_terms:ir.ui.view,arch_db:purchase_request_exception.view_purchase_request_form
+msgid ""
+"Click here to be able to confirm this Agreement regardless of the "
+"exceptions."
+msgstr "Натисніть тут, щоб підтвердити цю угоду незалежно від винятків."
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request__exceptions_summary
+msgid "Exceptions Summary"
+msgstr "Підсумок винятків"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__exception_ids
+msgid "Exceptions to resolve"
+msgstr "Винятки для усунення"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request__ignore_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__ignore
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_line__ignore_exception
+#: model_terms:ir.ui.view,arch_db:purchase_request_exception.view_purchase_request_form
+msgid "Ignore Exceptions"
+msgstr "Ігнорувати винятки"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request__main_exception_id
+msgid "Main Exception"
+msgstr "Основний виняток"
+
+#. module: purchase_request_exception
+#: model:ir.actions.act_window,name:purchase_request_exception.action_purchase_request_exception_confirm
+msgid "Outstanding exceptions to manage"
+msgstr "Невирішені винятки для опрацювання"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__related_model_id
+#: model:ir.model.fields.selection,name:purchase_request_exception.selection__exception_rule__model__purchase_request
+msgid "Purchase request"
+msgstr "Запит на закупівлю"

@@ -22,3 +22,13 @@ msgstr "Скасував"
 #: model:ir.model.fields,field_description:purchase_request_cancel_confirm.field_purchase_request__cancel_date
 msgid "Cancel Date"
 msgstr "Дата скасування"
+
+#. module: purchase_request_cancel_confirm
+#: model:ir.model.fields,field_description:purchase_request_cancel_confirm.field_purchase_request__cancel_confirm
+msgid "Cancel Confirmed"
+msgstr "Скасувати підтверджені"
+
+#. module: purchase_request_cancel_confirm
+#: model:ir.model.fields,field_description:purchase_request_cancel_confirm.field_purchase_request__cancel_reason
+msgid "Cancel Reason"
+msgstr "Причина скасування"

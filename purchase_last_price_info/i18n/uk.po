@@ -18,3 +18,63 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_last_price_info.product_template_last_purchase_info_form_view
 msgid "Purchase"
 msgstr "Закупівля"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_currency_id
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_currency_id
+msgid "Last Purchase Currency"
+msgstr "Валюта останньої закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_price_currency_rate
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_price_currency_rate
+msgid "Last Purchase Currency Rate"
+msgstr "Курс валюти останньої закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_date
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_date
+msgid "Last Purchase Date"
+msgstr "Дата останньої закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_line_id
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_line_id
+msgid "Last Purchase Line"
+msgstr "Останній рядок закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_line_ids
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_line_ids
+msgid "Last Purchase Order Lines"
+msgstr "Останні рядки замовлення на закупівлю"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_price
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_price
+msgid "Last Purchase Price"
+msgstr "Остання ціна закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_price_currency
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_price_currency
+msgid "Last Purchase Price Currency"
+msgstr "Валюта останньої ціни закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_supplier_id
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__last_purchase_supplier_id
+msgid "Last Supplier"
+msgstr "Останній постачальник"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__show_last_purchase_price_currency
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__show_last_purchase_price_currency
+msgid "Show Last Purchase Price Currency"
+msgstr "Показувати валюту останньої ціни закупівлі"
+
+#. module: purchase_last_price_info
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__show_last_purchase_price_currency_rate
+#: model:ir.model.fields,field_description:purchase_last_price_info.field_product_template__show_last_purchase_price_currency_rate
+msgid "Show Last Purchase Price Currency Rate"
+msgstr "Показувати курс валюти останньої ціни закупівлі"

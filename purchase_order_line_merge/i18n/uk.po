@@ -85,3 +85,46 @@ msgstr "Постачальник"
 #: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: purchase_order_line_merge
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_merge.purchase_order_line_merge_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_order_line_merge
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge__write_uid
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_order_line_merge
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge__write_date
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_order_line_merge
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_merge.purchase_order_line_merge_form
+msgid "Merge Lines"
+msgstr "Об'єднати рядки"
+
+#. module: purchase_order_line_merge
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__order_id
+msgid "Order Reference"
+msgstr "Посилання на замовлення"
+
+#. module: purchase_order_line_merge
+#. odoo-python
+#: code:addons/purchase_order_line_merge/wizard/purchase_order_line_merge.py:0
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_order_line_merge
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_merge.purchase_order_line_merge_form
+msgid "Source PO"
+msgstr "Вихідне PO"
+
+#. module: purchase_order_line_merge
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__product_uom
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"

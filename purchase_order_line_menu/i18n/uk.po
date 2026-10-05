@@ -44,3 +44,64 @@ msgstr "Дата замовлення"
 #: model:ir.ui.menu,name:purchase_order_line_menu.purchase_order_line_menu
 msgid "Purchase Order Lines"
 msgstr "Рядки замовлень на закупівлю"
+
+#. module: purchase_order_line_menu
+#: model:ir.model.fields,field_description:purchase_order_line_menu.field_purchase_order_line__invoice_status
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "Billing Status"
+msgstr "Статус виставлення рахунку"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_tree
+msgid "Disc.%"
+msgstr "Знижка, %"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "Fully Billed"
+msgstr "Повністю виставлено рахунок"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "Nothing to Bill"
+msgstr "Немає що виставляти"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "Planned date"
+msgstr "Запланована дата"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_tree
+msgid "Price Subtotal"
+msgstr "Проміжна сума ціни"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_tree
+msgid "Price Tax"
+msgstr "Ціна з податком"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_tree
+msgid "Price Total"
+msgstr "Загальна ціна"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "Purchase Order"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "RFQ Sent"
+msgstr "RFQ надіслано"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "To Approve"
+msgstr "На схвалення"
+
+#. module: purchase_order_line_menu
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
+msgid "Waiting Bills"
+msgstr "Очікування рахунків"

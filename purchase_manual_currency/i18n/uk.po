@@ -17,3 +17,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_manual_currency.purchase_order_form
 msgid "Opened"
 msgstr "Відкрито"
+
+#. module: purchase_manual_currency
+#: model_terms:ir.ui.view,arch_db:purchase_manual_currency.purchase_order_form
+msgid "<i title=\"Update Currency\" class=\"fa fa-fw fa-refresh\"/>"
+msgstr "<i title=\"Оновити валюту\" class=\"fa fa-fw fa-refresh\"/>"
+
+#. module: purchase_manual_currency
+#: model:ir.model.fields,field_description:purchase_manual_currency.field_purchase_order__manual_currency
+msgid "Manual Currency"
+msgstr "Ручна валюта"
+
+#. module: purchase_manual_currency
+#: model:ir.model.fields,field_description:purchase_manual_currency.field_res_company__manual_currency_po_inv
+#: model:ir.model.fields,field_description:purchase_manual_currency.field_res_config_settings__manual_currency_po_inv
+msgid "Manual Currency Purchase - Invoice"
+msgstr "Ручна валюта закупівлі — рахунок"
+
+#. module: purchase_manual_currency
+#: model:ir.model.fields,field_description:purchase_manual_currency.field_purchase_order__type_currency
+msgid "Type Currency"
+msgstr "Валюта типу"

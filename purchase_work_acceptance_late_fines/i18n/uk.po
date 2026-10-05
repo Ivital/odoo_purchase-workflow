@@ -55,3 +55,82 @@ msgstr "Тип"
 #: model:ir.model,name:purchase_work_acceptance_late_fines.model_work_acceptance
 msgid "Work Acceptance"
 msgstr "Приймання робіт"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_work_acceptance_fines_late_tab_form
+msgid "(Approximately)"
+msgstr "(Приблизно)"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_wa_create_fines
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_wa_create_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_work_acceptance_fines_late_tab_form
+msgid "Create Fines"
+msgstr "Створити штрафи"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_wa_create_fines
+msgid "Create Fines As"
+msgstr "Створити штрафи як"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields.selection,name:purchase_work_acceptance_late_fines.selection__work_acceptance_create_fines__move_type__out_invoice
+msgid "Customer Invoice"
+msgstr "Рахунок клієнту"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_res_config_settings__group_enable_fines_on_wa
+#: model:res.groups,name:purchase_work_acceptance_late_fines.group_enable_fines_on_wa
+msgid "Enable Late Delivery Fines on Work Acceptance"
+msgstr "Увімкнути штрафи за пізню доставку в прийманні робіт"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_work_acceptance_search
+msgid "Fines"
+msgstr "Штрафи"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_work_acceptance__fines_late
+msgid "Fines Amount"
+msgstr "Сума штрафів"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_work_acceptance__fines_invoice_ids
+msgid "Fines Invoices"
+msgstr "Рахунки за штрафами"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_work_acceptance_create_fines__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_work_acceptance_create_fines__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_res_company__wa_fines_late_account_id
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_res_config_settings__wa_fines_late_account_id
+msgid "Late Delivery Fines Revenue Account"
+msgstr "Рахунок доходу від штрафів за пізню доставку"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_work_acceptance_fines_late_tab_form
+msgid "Late Fines"
+msgstr "Штрафи за прострочення"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields.selection,name:purchase_work_acceptance_late_fines.selection__work_acceptance_create_fines__move_type__in_refund
+msgid "Vendor Refund"
+msgstr "Повернення постачальнику"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.res_config_settings_view_form_purchase
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_work_acceptance_fines_late_tab_form
+msgid "per day"
+msgstr "на день"

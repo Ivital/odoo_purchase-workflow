@@ -32,3 +32,50 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__deposit_taxes_id
 msgid "Vendor Taxes"
 msgstr "Податки постачальника"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
+msgid "Create Bill"
+msgstr "Створити рахунок постачальника"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.res_config_settings_view_form_purchase
+msgid "Deposit Payments"
+msgstr "Авансові платежі"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__deposit_account_id
+msgid "Expense Account"
+msgstr "Рахунок витрат"
+
+#. module: purchase_deposit
+#: model:ir.actions.act_window,name:purchase_deposit.action_view_purchase_advance_payment_inv
+msgid "Invoice Order"
+msgstr "Порядок рахунків"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_res_company__purchase_deposit_limit_order_total
+#: model:ir.model.fields,field_description:purchase_deposit.field_res_config_settings__purchase_deposit_limit_order_total
+msgid "Limit Deposits to Order Total"
+msgstr "Обмежити депозити сумою замовлення"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_res_company__purchase_deposit_product_id
+#: model:ir.model.fields,field_description:purchase_deposit.field_res_config_settings__purchase_deposit_product_id
+msgid "Purchase Deposit Product"
+msgstr "Товар депозиту закупівлі"

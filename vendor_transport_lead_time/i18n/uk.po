@@ -1,0 +1,29 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,field_description:vendor_transport_lead_time.field_product_supplierinfo__supplier_delay
+msgid "Supplier Lead Time"
+msgstr "Термін постачання постачальника"
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,field_description:vendor_transport_lead_time.field_product_supplierinfo__transport_delay
+msgid "Transport Lead Time"
+msgstr "Термін транспортування"
+
+#. module: vendor_transport_lead_time
+#: model_terms:ir.ui.view,arch_db:vendor_transport_lead_time.product_supplierinfo_form_view
+msgid "days"
+msgstr "дні"

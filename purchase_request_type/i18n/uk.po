@@ -83,3 +83,34 @@ msgstr "Послідовність"
 #: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_form
 msgid "Type"
 msgstr "Тип"
+
+#. module: purchase_request_type
+#: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__sequence_id
+#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
+msgid "Entry Sequence"
+msgstr "Послідовність проведень"
+
+#. module: purchase_request_type
+#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: purchase_request_type
+#: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_request_type
+#: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_request_type
+#: model:ir.model,name:purchase_request_type.model_purchase_request
+msgid "Purchase Request"
+msgstr "Запит на закупівлю"
+
+#. module: purchase_request_type
+#: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request__request_type
+msgid "Request Type"
+msgstr "Тип запиту"

@@ -17,3 +17,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_open_qty.field_purchase_order__qty_to_invoice
 msgid "Qty to Bill"
 msgstr "Кількість до рахунка"
+
+#. module: purchase_open_qty
+#: model:ir.model.fields,field_description:purchase_open_qty.field_purchase_order__pending_qty_to_invoice
+#: model_terms:ir.ui.view,arch_db:purchase_open_qty.purchase_order_line_search
+#: model_terms:ir.ui.view,arch_db:purchase_open_qty.view_purchase_order_filter
+msgid "Pending Qty to Bill"
+msgstr "Кількість, що очікує виставлення рахунку"
+
+#. module: purchase_open_qty
+#: model:ir.model.fields,field_description:purchase_open_qty.field_purchase_order__pending_qty_to_receive
+#: model_terms:ir.ui.view,arch_db:purchase_open_qty.purchase_order_line_search
+#: model_terms:ir.ui.view,arch_db:purchase_open_qty.view_purchase_order_filter
+msgid "Pending Qty to Receive"
+msgstr "Кількість, що очікує отримання"
+
+#. module: purchase_open_qty
+#: model:ir.model.fields,field_description:purchase_open_qty.field_purchase_order__qty_to_receive
+#: model:ir.model.fields,field_description:purchase_open_qty.field_purchase_order_line__qty_to_receive
+msgid "Qty to Receive"
+msgstr "Кількість до отримання"

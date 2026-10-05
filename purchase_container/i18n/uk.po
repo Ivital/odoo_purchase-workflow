@@ -178,3 +178,187 @@ msgstr "Тип"
 #: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
 msgid "Volume"
 msgstr "Об’єм"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: purchase_container
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
+msgid "Arrival"
+msgstr "Прибуття"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__arrival_location_id
+msgid "Arrival Location"
+msgstr "Місце прибуття"
+
+#. module: purchase_container
+#: model:ir.model.fields.selection,name:purchase_container.selection__purchase_container__state__arrived
+msgid "Arrived"
+msgstr "Прибуло"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__weight
+msgid "Bruto Weight"
+msgstr "Вага брутто"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__code
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
+msgid "Container Reference"
+msgstr "Посилання на контейнер"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__cost_currency_id
+msgid "Cost Currency"
+msgstr "Валюта собівартості"
+
+#. module: purchase_container
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
+msgid "Departure"
+msgstr "Відправлення"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: purchase_container
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_container_type__write_uid
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_container_type__write_date
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_container
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
+msgid "Lock"
+msgstr "Заблокувати"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__manual_incoterm_id
+msgid "Manual Incoterm"
+msgstr "Incoterm вручну"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: purchase_container
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
+msgid "Purchase Orders"
+msgstr "Замовлення на закупівлю"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__picking_ids
+msgid "Related Pickings"
+msgstr "Пов'язані комплектування"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__shipping_agent_id
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_search
+msgid "Shipping Agent"
+msgstr "Агент доставки"
+
+#. module: purchase_container
+#: model:ir.model.fields.selection,name:purchase_container.selection__purchase_container__state__transit
+msgid "Transit"
+msgstr "Транзит"
+
+#. module: purchase_container
+#: model_terms:ir.ui.view,arch_db:purchase_container.purchase_container_view_form
+msgid "Unlock"
+msgstr "Розблокувати"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__volume_uom_id
+msgid "Volume Units of Measure"
+msgstr "Одиниці вимірювання об'єму"
+
+#. module: purchase_container
+#: model:ir.model.fields.selection,name:purchase_container.selection__purchase_container__state__waiting
+msgid "Waiting"
+msgstr "Очікування"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: purchase_container
+#: model:ir.model.fields,help:purchase_container.field_purchase_container__weight_uom_id
+msgid "Weight Unit of Measure"
+msgstr "Одиниця вимірювання ваги"
+
+#. module: purchase_container
+#: model:ir.model.fields,field_description:purchase_container.field_purchase_container__weight_uom_id
+msgid "Weight Units of Measure"
+msgstr "Одиниці вимірювання ваги"

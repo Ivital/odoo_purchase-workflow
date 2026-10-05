@@ -48,3 +48,19 @@ msgstr "Назва"
 #: model:ir.ui.menu,name:purchase_order_approval_block.menu_purchase_approval_block_reason
 msgid "Purchase Approval Block Reasons"
 msgstr "Причини блокування погодження закупівлі"
+
+#. module: purchase_order_approval_block
+#: model:exception.rule,name:purchase_order_approval_block.po_excep_approval_block
+#: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_order__approval_blocked
+msgid "Approval Blocked"
+msgstr "Схвалення заблоковано"
+
+#. module: purchase_order_approval_block
+#: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_order_approval_block
+#: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

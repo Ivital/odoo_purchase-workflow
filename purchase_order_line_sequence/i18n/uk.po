@@ -18,3 +18,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_invoice_document_inherit_purchase_sequence
 msgid "Line Number"
 msgstr "Номер рядка"
+
+#. module: purchase_order_line_sequence
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_purchase_order_sequence_qweb
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_purchase_quote_sequence_qweb
+msgid "<strong>Line Number</strong>"
+msgstr "<strong>Номер рядка</strong>"
+
+#. module: purchase_order_line_sequence
+#: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order_line__sequence
+msgid "Hidden Sequence"
+msgstr "Прихована послідовність"
+
+#. module: purchase_order_line_sequence
+#: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order__max_line_sequence
+msgid "Max sequence in lines"
+msgstr "Максимальна послідовність у рядках"
+
+#. module: purchase_order_line_sequence
+#: model:ir.model.fields,field_description:purchase_order_line_sequence.field_account_move_line__related_po_sequence
+msgid "PO Line Number"
+msgstr "Номер рядка PO"

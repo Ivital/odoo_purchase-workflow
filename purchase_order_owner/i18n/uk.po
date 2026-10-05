@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_order_owner.view_purchase_order_filter
 msgid "Owner"
 msgstr "Власник"
+
+#. module: purchase_order_owner
+#: model:ir.model.fields,field_description:purchase_order_owner.field_purchase_order__owner_id
+msgid "Assign Owner"
+msgstr "Призначити власника"

@@ -65,3 +65,23 @@ msgstr "Назва тегу"
 #: model_terms:ir.ui.view,arch_db:purchase_tag.purchase_tag_view_form
 msgid "Tags"
 msgstr "Теги"
+
+#. module: purchase_tag
+#: model_terms:ir.ui.view,arch_db:purchase_tag.view_purchase_order_filter
+msgid "Don't have a tag"
+msgstr "Немає тега"
+
+#. module: purchase_tag
+#: model_terms:ir.ui.view,arch_db:purchase_tag.view_purchase_order_filter
+msgid "Have a tag"
+msgstr "Має тег"
+
+#. module: purchase_tag
+#: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_tag
+#: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
