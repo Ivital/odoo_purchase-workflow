@@ -38,3 +38,32 @@ msgstr "Ніколи"
 #: model:ir.model.fields,field_description:purchase_order_approved.field_res_users__purchase_requires_second_approval
 msgid "Purchase Requires Second Approval"
 msgstr "Закупівля потребує другого схвалення"
+
+#. module: purchase_order_approved
+#: model:ir.model.fields.selection,name:purchase_order_approved.selection__res_partner__purchase_requires_second_approval__based_on_company
+msgid "Based on company policy"
+msgstr "На основі політики компанії"
+
+#. module: purchase_order_approved
+#: model_terms:ir.ui.view,arch_db:purchase_order_approved.purchase_order_form
+msgid "Convert to Purchase Order"
+msgstr "Перетворити на замовлення закупівлі"
+
+#. module: purchase_order_approved
+#: model_terms:ir.ui.view,arch_db:purchase_order_approved.view_purchase_configuration
+msgid ""
+"Require second approval for purchase orders as company policy (otherwise it "
+"can be set per supplier)"
+msgstr ""
+"Вимагати другого схвалення замовлень на закупівлю як політику компанії "
+"(інакше можна задати для окремого постачальника)"
+
+#. module: purchase_order_approved
+#: model:ir.model.fields,field_description:purchase_order_approved.field_res_config_settings__purchase_approve_active
+msgid "Use 'Approved' Stage"
+msgstr "Використовувати етап «Затверджено»"
+
+#. module: purchase_order_approved
+#: model:ir.model.fields,field_description:purchase_order_approved.field_res_company__purchase_approve_active
+msgid "Use State 'Approved' in Purchase Orders"
+msgstr "Використовувати стан «Схвалено» в замовленнях закупівлі"

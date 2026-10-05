@@ -19,3 +19,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_disable_autocreation.product_supplierinfo_disable_autocreation_res_config_settings_view_form
 msgid "Enable Automatic Supplier Pricelists"
 msgstr "Увімкнути автоматичні прайс-листи постачальника"
+
+#. module: product_supplierinfo_disable_autocreation
+#: model_terms:ir.ui.view,arch_db:product_supplierinfo_disable_autocreation.product_supplierinfo_disable_autocreation_res_config_settings_view_form
+msgid ""
+"Automatically create supplier pricelists when validating purchase orders"
+msgstr ""
+"Автоматично створювати прайс-листи постачальників під час підтвердження "
+"замовлень на закупівлю"

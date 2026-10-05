@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation_brand.field_purchase_order_recommendation__product_brand_ids
 msgid "Brands"
 msgstr "Бренди"
+
+#. module: purchase_order_product_recommendation_brand
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation_brand.field_purchase_order_recommendation__allowed_brand_domain
+msgid "Allowed Brand Domain"
+msgstr "Домен дозволених брендів"

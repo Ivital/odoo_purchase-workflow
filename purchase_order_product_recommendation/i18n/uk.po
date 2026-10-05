@@ -184,3 +184,30 @@ msgstr "Кількість отримань"
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__warehouse_count
 msgid "Warehouse Count"
 msgstr "Кількість складів"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__product_code
+msgid "Product reference"
+msgstr "Посилання на товар"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.actions.act_window,name:purchase_order_product_recommendation.purchase_order_recommendation_action
+msgid "Recommended Products for this Vendor"
+msgstr "Рекомендовані товари для цього постачальника"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_products
+msgid "Show all purchasable products"
+msgstr "Показувати всі товари, доступні для закупівлі"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_partner_products
+msgid "Show all supplier products"
+msgstr "Показувати всі товари постачальника"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation_line__partner_id
+msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
+msgstr ""
+"Постачальника можна знайти за назвою, ІПН, електронною поштою або внутрішнім"
+" посиланням."

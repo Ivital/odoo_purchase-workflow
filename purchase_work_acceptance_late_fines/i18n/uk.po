@@ -134,3 +134,19 @@ msgstr "Повернення постачальнику"
 #: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_work_acceptance_fines_late_tab_form
 msgid "per day"
 msgstr "на день"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.actions.act_window,name:purchase_work_acceptance_late_fines.action_wa_create_fines
+msgid "Create Fines Invoice/Refund"
+msgstr "Створити рахунок/повернення штрафів"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,field_description:purchase_work_acceptance_late_fines.field_work_acceptance__fines_invoice_count
+msgid "Fines Invoice Count"
+msgstr "Кількість рахунків штрафів"
+
+#. module: purchase_work_acceptance_late_fines
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_late_fines.view_wa_create_fines
+msgid "You can create fines as either customer invoice or vendor refund."
+msgstr ""
+"Можна створювати штрафи як рахунок клієнта або повернення постачальника."

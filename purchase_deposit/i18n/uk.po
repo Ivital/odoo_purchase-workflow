@@ -79,3 +79,71 @@ msgstr "Обмежити депозити сумою замовлення"
 #: model:ir.model.fields,field_description:purchase_deposit.field_res_config_settings__purchase_deposit_product_id
 msgid "Purchase Deposit Product"
 msgstr "Товар депозиту закупівлі"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
+msgid "Create and View bills"
+msgstr "Створити й переглянути рахунки"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__amount
+msgid "Deposit Payment Amount"
+msgstr "Сума депозитного платежу"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__purchase_deposit_product_id
+msgid "Deposit Payment Product"
+msgstr "Товар для депозитного платежу"
+
+#. module: purchase_deposit
+#: model:ir.model.fields.selection,name:purchase_deposit.selection__purchase_advance_payment_inv__advance_payment_method__fixed
+msgid "Deposit payment (fixed amount)"
+msgstr "Депозитний платіж (фіксована сума)"
+
+#. module: purchase_deposit
+#: model:ir.model.fields.selection,name:purchase_deposit.selection__purchase_advance_payment_inv__advance_payment_method__percentage
+msgid "Deposit payment (percentage)"
+msgstr "Депозитний платіж (відсоток)"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
+msgid "Invoice Purchases Order"
+msgstr "Замовлення закупівель за рахунком"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_advance_payment_inv
+msgid ""
+"Invoices will be created in draft so that you can review them before "
+"validation."
+msgstr ""
+"Рахунки буде створено як чернетки, щоб ви могли перевірити їх перед "
+"підтвердженням."
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_order_line__is_deposit
+msgid "Is a deposit payment"
+msgstr "Є депозитним платежем"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.res_config_settings_view_form_purchase
+msgid "Product used for deposit payments"
+msgstr "Товар для депозитних платежів"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.res_config_settings_view_form_purchase
+msgid ""
+"Refuse a deposit when the deposits already invoiced, plus the one being "
+"registered, exceed the purchase order total"
+msgstr ""
+"Відхилити депозит, якщо вже виставлені депозити разом із поточним "
+"перевищують загальну суму замовлення на закупівлю"
+
+#. module: purchase_deposit
+#: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_order_form_inherit
+msgid "Register Deposit"
+msgstr "Зареєструвати депозит"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__advance_payment_method
+msgid "What do you want to invoice?"
+msgstr "Що ви хочете виставити в рахунок?"

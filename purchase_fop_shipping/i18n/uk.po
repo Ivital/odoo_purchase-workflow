@@ -24,3 +24,14 @@ msgstr "FOP досягнуто"
 #: model:ir.model.fields,field_description:purchase_fop_shipping.field_res_users__fop_shipping
 msgid "FOP shipping"
 msgstr "Доставка FOP"
+
+#. module: purchase_fop_shipping
+#: model:ir.model.fields,field_description:purchase_fop_shipping.field_purchase_order__force_order_under_fop
+msgid "Confirm under FOP"
+msgstr "Підтвердити в межах FOP"
+
+#. module: purchase_fop_shipping
+#: model:ir.model.fields,help:purchase_fop_shipping.field_res_partner__fop_shipping
+#: model:ir.model.fields,help:purchase_fop_shipping.field_res_users__fop_shipping
+msgid "Min purchase order amount for FOP shipping"
+msgstr "Мінімальна сума замовлення на закупівлю для доставки FOP"

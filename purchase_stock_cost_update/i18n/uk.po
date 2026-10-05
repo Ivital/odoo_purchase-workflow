@@ -33,3 +33,41 @@ msgstr "Оновити історію"
 #: model:ir.model.fields,field_description:purchase_stock_cost_update.field_purchase_order_line__valuation_differs
 msgid "Valuation Differs"
 msgstr "Оцінка відрізняється"
+
+#. module: purchase_stock_cost_update
+#: model_terms:ir.ui.view,arch_db:purchase_stock_cost_update.purchase_order_form
+msgid "<i class=\"fa fa-info-circle\" role=\"img\"/> Details"
+msgstr "<i class=\"fa fa-info-circle\" role=\"img\"/> Деталі"
+
+#. module: purchase_stock_cost_update
+#: model_terms:ir.ui.view,arch_db:purchase_stock_cost_update.purchase_order_form
+msgid ""
+"<i class=\"fa fa-warning\"/> There are lines (marked in yellow) which\n"
+"                    prices have changed since they where received in stock."
+msgstr ""
+"<i class=\"fa fa-warning\"/> Є рядки (позначені жовтим), ціни в яких\n"
+"                    змінилися після надходження товару на склад."
+
+#. module: purchase_stock_cost_update
+#: model:ir.model.fields,field_description:purchase_stock_cost_update.field_stock_valuation_layer__cost_update_history
+msgid "Cost Update History"
+msgstr "Історія оновлення собівартості"
+
+#. module: purchase_stock_cost_update
+#: model_terms:ir.ui.view,arch_db:purchase_stock_cost_update.purchase_order_form
+msgid ""
+"This will make unreversible changes to the valuation layers related to the "
+"affected products"
+msgstr ""
+"Це внесе незворотні зміни до шарів оцінки, пов’язаних із відповідними "
+"товарами"
+
+#. module: purchase_stock_cost_update
+#: model:ir.model.fields,field_description:purchase_stock_cost_update.field_purchase_order_line__valuation_difference
+msgid "Valuation Difference"
+msgstr "Різниця оцінки"
+
+#. module: purchase_stock_cost_update
+#: model:ir.model.fields,field_description:purchase_stock_cost_update.field_purchase_order__valuation_difference_report
+msgid "Valuation Difference Report"
+msgstr "Звіт про різницю оцінки"

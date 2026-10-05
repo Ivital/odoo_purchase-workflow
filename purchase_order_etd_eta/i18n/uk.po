@@ -18,3 +18,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_order_etd_eta.field_res_config_settings__hide_expected_arrival_when_eta
 msgid "Hide Expected Arrival When Eta"
 msgstr "Приховувати очікуване прибуття за наявності ETA"
+
+#. module: purchase_order_etd_eta
+#: model_terms:ir.ui.view,arch_db:purchase_order_etd_eta.purchase_etd_eta_info
+msgid "<strong>Shipping Schedule Note:</strong>"
+msgstr "<strong>Примітка до графіка доставки:</strong>"
+
+#. module: purchase_order_etd_eta
+#: model_terms:ir.ui.view,arch_db:purchase_order_etd_eta.res_config_settings_view_form
+msgid "Hide Expected Arrival in Purchase Orders Reports"
+msgstr "Приховати очікувану дату прибуття у звітах замовлень закупівлі"
+
+#. module: purchase_order_etd_eta
+#: model_terms:ir.ui.view,arch_db:purchase_order_etd_eta.res_config_settings_view_form
+msgid ""
+"Hide the expected arrival date in purchase orders reports when the ETA is "
+"set."
+msgstr ""
+"Приховувати очікувану дату прибуття у звітах замовлень на закупівлю, якщо "
+"задано ETA."
+
+#. module: purchase_order_etd_eta
+#: model:ir.model.fields,field_description:purchase_order_etd_eta.field_purchase_order__shipping_schedule_note
+msgid "Shipping Schedule Note"
+msgstr "Примітка до графіка доставки"

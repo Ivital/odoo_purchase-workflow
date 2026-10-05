@@ -145,3 +145,36 @@ msgstr "Вибрати приймання робіт"
 #: model:ir.model.fields,field_description:purchase_work_acceptance_invoice_plan.field_select_work_acceptance_invoice_plan_wizard__valid_amount
 msgid "Valid Amount"
 msgstr "Допустима сума"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model.fields,field_description:purchase_work_acceptance_invoice_plan.field_select_work_acceptance_invoice_plan_wizard__active_installment_ids
+msgid "Active Installment"
+msgstr "Активний платіж"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.actions.server,name:purchase_work_acceptance_invoice_plan.apply_on_all_product_line
+msgid "All product lines"
+msgstr "Усі рядки товарів"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_invoice_plan.purchase_order_form_inherit
+msgid "Create WA by Installment"
+msgstr "Створити WA за етапом платежу"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_invoice_plan.view_select_work_acceptance_invoice_plan_wizard
+msgid "Leave blank to apply to all purchase lines"
+msgstr "Залиште порожнім, щоб застосувати до всіх рядків закупівлі"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.actions.server,name:purchase_work_acceptance_invoice_plan.apply_on_matched_amount
+msgid "Product line with matched amount"
+msgstr "Рядок товару зі зіставленою сумою"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_work_acceptance_invoice_plan.view_select_work_acceptance_invoice_plan_wizard
+msgid ""
+"Total amount not equal to installment amount, are you sure to continue?"
+msgstr ""
+"Загальна сума не дорівнює сумі платежу частинами. Ви впевнені, що хочете "
+"продовжити?"

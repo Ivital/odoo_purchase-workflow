@@ -56,3 +56,33 @@ msgstr "Усього RFQ"
 #: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "Waiting Bills"
 msgstr "Очікування рахунків"
+
+#. module: purchase_order_type_dashboard
+#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
+msgid "Number of Purchase Orders that have nothing to bill yet"
+msgstr "Кількість замовлень закупівлі, за якими ще нічого виставляти"
+
+#. module: purchase_order_type_dashboard
+#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
+msgid "Number of Purchase Orders waiting for bills"
+msgstr "Кількість замовлень закупівлі, що очікують рахунків"
+
+#. module: purchase_order_type_dashboard
+#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
+msgid "Number of Requests for Quotations"
+msgstr "Кількість запитів комерційних пропозицій"
+
+#. module: purchase_order_type_dashboard
+#: model:ir.actions.act_window,name:purchase_order_type_dashboard.action_purchase_rfq_from_dashboard
+msgid "Request for Quotation"
+msgstr "Запит комерційної пропозиції"
+
+#. module: purchase_order_type_dashboard
+#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_tree
+msgid "Total Nothing to Bill"
+msgstr "Усього нічого до виставлення"
+
+#. module: purchase_order_type_dashboard
+#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_tree
+msgid "Total Waiting Bills"
+msgstr "Усього рахунків в очікуванні"

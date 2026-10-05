@@ -30,3 +30,13 @@ msgstr "Параметр попередження закупівлі"
 #: model_terms:ir.ui.view,arch_db:purchase_warn_option.purchase_warn_option_product_form
 msgid "Select a warning option"
 msgstr "Виберіть параметр попередження"
+
+#. module: purchase_warn_option
+#: model:ir.model.fields.selection,name:purchase_warn_option.selection__warn_option__allowed_warning_usage__partner_purchase_warn
+msgid "(Partner) Warning on the Purchase Order"
+msgstr "(Контрагент) Попередження в замовленні закупівлі"
+
+#. module: purchase_warn_option
+#: model:ir.model.fields.selection,name:purchase_warn_option.selection__warn_option__allowed_warning_usage__product_purchase_warn
+msgid "(Product) Warning when Purchasing this Product"
+msgstr "(Товар) Попередження під час закупівлі цього товару"

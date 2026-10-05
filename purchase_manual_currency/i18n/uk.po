@@ -38,3 +38,28 @@ msgstr "Ручна валюта закупівлі — рахунок"
 #: model:ir.model.fields,field_description:purchase_manual_currency.field_purchase_order__type_currency
 msgid "Type Currency"
 msgstr "Валюта типу"
+
+#. module: purchase_manual_currency
+#: model_terms:ir.ui.view,arch_db:purchase_manual_currency.purchase_order_form
+msgid "Amount (Company Currency)"
+msgstr "Сума (валюта компанії)"
+
+#. module: purchase_manual_currency
+#: model_terms:ir.ui.view,arch_db:purchase_manual_currency.res_config_settings_view_form_purchase
+msgid "Bill Manual Currency"
+msgstr "Ручна валюта рахунку"
+
+#. module: purchase_manual_currency
+#: model:ir.model.fields,field_description:purchase_manual_currency.field_purchase_order_line__subtotal_company_currency
+msgid "Subtotal (Company Currency)"
+msgstr "Проміжний підсумок (валюта компанії)"
+
+#. module: purchase_manual_currency
+#: model:ir.model.fields.selection,name:purchase_manual_currency.selection__res_company__manual_currency_po_inv__currency_inv
+msgid "Use currency invoice"
+msgstr "Використовувати валюту рахунку"
+
+#. module: purchase_manual_currency
+#: model:ir.model.fields.selection,name:purchase_manual_currency.selection__res_company__manual_currency_po_inv__currency_po
+msgid "Use currency purchase"
+msgstr "Використовувати валюту закупівлі"

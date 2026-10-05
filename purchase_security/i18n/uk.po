@@ -102,3 +102,8 @@ msgstr "Команди закупівель"
 #: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
 msgid "e.g. Europe"
 msgstr "напр., Європа"
+
+#. module: purchase_security
+#: model:ir.model.fields,field_description:purchase_security.field_purchase_order__is_user_id_editable
+msgid "Is User Id Editable"
+msgstr "ID користувача можна редагувати"

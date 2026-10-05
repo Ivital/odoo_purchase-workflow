@@ -43,3 +43,12 @@ msgstr "Посилання RFQ"
 #: model:ir.model.fields,field_description:purchase_rfq_number.field_res_config_settings__keep_name_po
 msgid "Use Same Enumeration"
 msgstr "Використовувати ту саму нумерацію"
+
+#. module: purchase_rfq_number
+#: model_terms:ir.ui.view,arch_db:purchase_rfq_number.res_config_settings_view_form_purchase_rfq_number
+msgid ""
+"If this is unchecked, purchase rfq use a different sequence from purchase "
+"orders"
+msgstr ""
+"Якщо вимкнено, запити комерційної пропозиції на закупівлю використовують "
+"іншу послідовність, ніж замовлення на закупівлю"

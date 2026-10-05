@@ -37,6 +37,8 @@ msgid ""
 "Choose the reason for the cancellation of the\n"
 "                    purchase order."
 msgstr ""
+"Виберіть причину скасування\n"
+"                    замовлення на закупівлю."
 
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel

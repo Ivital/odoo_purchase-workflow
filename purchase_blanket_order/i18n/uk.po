@@ -551,3 +551,169 @@ msgstr "Посилання постачальника"
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "<span>Blanket Order # </span>"
+msgstr "<span>Рамкове замовлення № </span>"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "<strong>Payment Terms:</strong>"
+msgstr "<strong>Умови оплати:</strong>"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "<strong>Purchase person:</strong>"
+msgstr "<strong>Відповідальний за закупівлю:</strong>"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.report_blanketorder_document
+msgid "<strong>Validity Date:</strong>"
+msgstr "<strong>Дата чинності:</strong>"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_order_line__blanket_order_line
+msgid "Blanket Order Line"
+msgstr "Рядок рамкового замовлення"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.actions.act_window,help:purchase_blanket_order.act_open_purchase_blanket_order_view
+msgid ""
+"Click to create a blanket order that can be converted into a purchase order."
+msgstr ""
+"Натисніть, щоб створити рамкове замовлення, яке можна перетворити на "
+"замовлення на закупівлю."
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_create_purchase_order
+msgid "Create and View Order"
+msgstr "Створити й переглянути замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_res_config_settings__group_purchase_blanket_disable_adding_lines
+msgid "Disable adding more lines to POs"
+msgstr "Заборонити додавання рядків до PO"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.purchase_config_settings_form_view
+msgid "Disable adding more lines to POs from Blanket Orders"
+msgstr "Заборонити додавання рядків до PO з рамкових замовлень"
+
+#. module: purchase_blanket_order
+#: model:ir.actions.server,name:purchase_blanket_order.expired_purchase_blanket_orders_cron_ir_actions_server
+msgid "Expire Blanket Orders"
+msgstr "Завершувати рамкові замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__activity_type_icon
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__activity_exception_icon
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__message_needaction
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__message_has_error
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form
+msgid "Invoice Information"
+msgstr "Інформація про рахунок"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__message_needaction_counter
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__message_has_error_counter
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_order__blanket_order_id
+msgid "Origin blanket order"
+msgstr "Початкове рамкове замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__line_count
+msgid "Purchase Blanket Order Line count"
+msgstr "Кількість рядків рамкового замовлення закупівлі"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard_line__qty
+msgid "Quantity to Order"
+msgstr "Кількість для замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__remaining_qty
+msgid "Remaining quantity in base UoM"
+msgstr "Залишкова кількість у базовій од. виміру"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.purchase_blanket_order_line_search
+msgid "Search Purchase Blanket Order Line"
+msgstr "Пошук рядка рамкового замовлення закупівлі"
+
+#. module: purchase_blanket_order
+#: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form
+msgid "Setup default terms and conditions in your company settings."
+msgstr "Налаштуйте стандартні умови та положення в параметрах компанії."
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__activity_state
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__activity_exception_decoration
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: purchase_blanket_order
+#: model_terms:ir.actions.act_window,help:purchase_blanket_order.act_open_purchase_blanket_order_view
+msgid ""
+"Use this menu to search within your blanket orders. For each blanket order,\n"
+"                you can track the related discussion with the vendor, control\n"
+"                the products received and control the vendor bills."
+msgstr ""
+"За допомогою цього меню можна здійснювати пошук у рамкових замовленнях. Для кожного рамкового замовлення\n"
+"                можна відстежувати пов'язане обговорення з постачальником, контролювати\n"
+"                отримані товари та рахунки постачальника."
+
+#. module: purchase_blanket_order
+#: model:ir.actions.server,name:purchase_blanket_order.warnings_purchase_blanket_orders_cron_ir_actions_server
+msgid "Warnings Blanket Orders"
+msgstr "Попередження для рамкових замовлень"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__website_message_ids
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

@@ -23,3 +23,8 @@ msgstr "Відстеження"
 #: model_terms:ir.ui.view,arch_db:purchase_lot.view_purchase_order_filter
 msgid "Serial Number"
 msgstr "Серійний номер"
+
+#. module: purchase_lot
+#: model:ir.model.fields,help:purchase_lot.field_purchase_order_line__tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Забезпечує простежуваність складованого товару на вашому складі."

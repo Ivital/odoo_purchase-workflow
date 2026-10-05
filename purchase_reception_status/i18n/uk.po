@@ -24,3 +24,8 @@ msgstr "Повністю отримано"
 #: model_terms:ir.ui.view,arch_db:purchase_reception_status.view_purchase_order_filter
 msgid "Receipt Status"
 msgstr "Статус надходження"
+
+#. module: purchase_reception_status
+#: model_terms:ir.ui.view,arch_db:purchase_reception_status.view_purchase_order_filter
+msgid "Not Fully Received"
+msgstr "Отримано не повністю"

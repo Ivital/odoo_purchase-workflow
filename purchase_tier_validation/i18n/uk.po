@@ -88,3 +88,14 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: purchase_tier_validation
+#: model:ir.model.fields,help:purchase_tier_validation.field_purchase_order__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: purchase_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_tier_validation.view_purchase_order_filter
+msgid "POs validated and ready to be confirmed"
+msgstr "PO перевірено та готово до підтвердження"

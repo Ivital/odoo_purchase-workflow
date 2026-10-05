@@ -128,3 +128,13 @@ msgstr "Вихідне PO"
 #: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__product_uom
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: purchase_order_line_merge
+#: model:ir.actions.act_window,name:purchase_order_line_merge.action_purchase_order_line_merge
+msgid "Merge into Purchase Order"
+msgstr "Об’єднати із замовленням закупівлі"
+
+#. module: purchase_order_line_merge
+#: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__quantity
+msgid "Quantity to Merge"
+msgstr "Кількість для об’єднання"

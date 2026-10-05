@@ -104,3 +104,18 @@ msgstr "Невирішені винятки для опрацювання"
 #: model:ir.model.fields.selection,name:purchase_request_exception.selection__exception_rule__model__purchase_request
 msgid "Purchase request"
 msgstr "Запит на закупівлю"
+
+#. module: purchase_request_exception
+#: model:ir.actions.server,name:purchase_request_exception.ir_cron_test_pr_request_except_ir_actions_server
+msgid "Purchase Request: Test Draft Purchase Requests Exception"
+msgstr "Запит закупівлі: тест винятку чернетки запитів"
+
+#. module: purchase_request_exception
+#: model:ir.model.fields.selection,name:purchase_request_exception.selection__exception_rule__model__purchase_request_line
+msgid "Purchase request line"
+msgstr "Рядок запиту на закупівлю"
+
+#. module: purchase_request_exception
+#: model:exception.rule,name:purchase_request_exception.prl_excep_qty_check
+msgid "Quantity not positive"
+msgstr "Кількість не є додатною"

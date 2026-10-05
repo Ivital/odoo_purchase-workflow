@@ -188,3 +188,45 @@ msgstr "Замовлення на закупівлю"
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__amount_residual
 msgid "Residual amount"
 msgstr "Залишкова сума"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_post_purchase_advance_payments
+msgid "Auto Post Purchase Advance Payments"
+msgstr "Автоматично проводити авансові платежі закупівель"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_reconcile_purchase_advance_payments
+msgid "Auto Reconcile Purchase Advance Payments"
+msgstr "Автоматично узгоджувати авансові платежі закупівлі"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid "Automatically reconcile payments upon bill confirmation."
+msgstr "Автоматично узгоджувати платежі після підтвердження рахунка."
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__available_payment_method_line_ids
+msgid "Available Payment Method Line"
+msgstr "Доступний рядок способу оплати"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid ""
+"If enabled, advance payments created from POs are automatically posted."
+msgstr ""
+"Якщо ввімкнено, авансові платежі, створені із замовлень на закупівлю, "
+"проводяться автоматично."
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid ""
+"If enabled, advance payments created from POs are automatically reconciled "
+"upon bill confirmation."
+msgstr ""
+"Якщо ввімкнено, авансові платежі із замовлень на закупівлю автоматично "
+"звіряються після підтвердження рахунку."
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
+msgid "Vendor Advance Payments"
+msgstr "Авансові платежі постачальнику"

@@ -40,3 +40,17 @@ msgstr "Загальна знижка закупівлі (%)"
 #: model_terms:ir.ui.view,arch_db:purchase_order_general_discount.res_config_settings_view_form_purchase
 msgid "Values set here are company-specific."
 msgstr "Значення, задані тут, є специфічними для компанії."
+
+#. module: purchase_order_general_discount
+#: model_terms:ir.ui.view,arch_db:purchase_order_general_discount.res_config_settings_view_form_purchase
+msgid ""
+"Select to which purchase line field will the purchase general discount be "
+"propagated."
+msgstr ""
+"Виберіть поле рядка закупівлі, до якого буде поширено загальну знижку "
+"закупівлі."
+
+#. module: purchase_order_general_discount
+#: model_terms:ir.ui.view,arch_db:purchase_order_general_discount.purchase_order_form
+msgid "Update general discounts"
+msgstr "Оновити загальні знижки"

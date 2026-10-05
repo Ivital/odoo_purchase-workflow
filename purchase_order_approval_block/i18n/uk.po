@@ -64,3 +64,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: purchase_order_approval_block
+#: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_order__approval_block_id
+msgid "Approval Block Reason"
+msgstr "Причина блокування затвердження"
+
+#. module: purchase_order_approval_block
+#: model_terms:ir.ui.view,arch_db:purchase_order_approval_block.view_purchase_order_filter
+msgid "Blocked for Approval"
+msgstr "Заблоковано для затвердження"
+
+#. module: purchase_order_approval_block
+#: model_terms:ir.ui.view,arch_db:purchase_order_approval_block.purchase_order_form
+msgid "Release Approval Block"
+msgstr "Зняти блокування схвалення"

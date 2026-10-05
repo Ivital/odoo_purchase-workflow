@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields.selection,name:purchase_receipt_expectation.selection__purchase_order__receipt_expectation__automatic
 msgid "Automatic"
 msgstr "Автоматично"
+
+#. module: purchase_receipt_expectation
+#: model:ir.model.fields,field_description:purchase_receipt_expectation.field_purchase_order__receipt_expectation
+msgid "Receipt Expectation"
+msgstr "Очікуване приймання"

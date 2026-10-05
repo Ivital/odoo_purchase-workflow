@@ -45,3 +45,12 @@ msgstr "Вторинна кількість"
 #: model:ir.model.fields,field_description:purchase_order_secondary_unit.field_product_supplierinfo__secondary_uom_id
 msgid "Secondary Unit"
 msgstr "Вторинна одиниця"
+
+#. module: purchase_order_secondary_unit
+#: model:ir.model.fields,help:purchase_order_secondary_unit.field_product_product__purchase_secondary_uom_id
+msgid ""
+"In order to set a value, please first add at least one record in 'Secondary "
+"Unit of Measure'"
+msgstr ""
+"Щоб установити значення, спочатку додайте принаймні один запис у «Вторинна "
+"одиниця вимірювання»"

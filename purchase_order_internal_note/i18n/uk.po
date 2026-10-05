@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_order_internal_note.view_purchase_order_internal_notes_form
 msgid "Internal Note"
 msgstr "Внутрішня примітка"
+
+#. module: purchase_order_internal_note
+#: model_terms:ir.ui.view,arch_db:purchase_order_internal_note.view_purchase_order_internal_notes_form
+msgid "Define the notes here. It will not be included in the report."
+msgstr "Визначте примітки тут. Вони не будуть включені у звіт."

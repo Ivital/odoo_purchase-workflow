@@ -180,3 +180,85 @@ msgstr "Складське переміщення"
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__product_uom
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_view_form_inherit
+msgid "Create Incoming Shipment"
+msgstr "Створити вхідне відправлення"
+
+#. module: purchase_manual_delivery
+#: model:ir.actions.act_window,name:purchase_manual_delivery.action_create_manual_stock_picking
+msgid "Create Manual Stock Picking"
+msgstr "Створити переміщення запасів вручну"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
+msgid "Create Stock Picking"
+msgstr "Створити складське комплектування"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
+msgid "Create and View Picking"
+msgstr "Створити та переглянути переміщення"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.res_config_settings_view_form
+msgid "Deliveries on purchase orders should be created manually by default."
+msgstr ""
+"Поставки за замовленнями на закупівлю за замовчуванням слід створювати "
+"вручну."
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.res_config_settings_view_form
+msgid "If active, Receipt of purchase orders should be manual created."
+msgstr "Якщо активно, приймання замовлень закупівлі слід створювати вручну."
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,field_description:purchase_manual_delivery.field_purchase_order__pending_to_receive
+msgid "Pending To Receive"
+msgstr "Очікується отримання"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_line_search
+msgid "Pending to receive"
+msgstr "Очікується отримання"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
+msgid "Picking Scheduled Date"
+msgstr "Запланована дата переміщення"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_line_search
+msgid ""
+"Purchase Order Lines that are confirmed or done and an incoming shipment is "
+"created to satisfy them"
+msgstr ""
+"Рядки замовлення на закупівлю, які підтверджено або завершено й для яких "
+"створено вхідне відвантаження"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_line_search
+msgid ""
+"Purchase Order Lines that are confirmed or done and no incoming shipment is "
+"created to satisfy them"
+msgstr ""
+"Рядки замовлення на закупівлю, які підтверджено або завершено й для яких не "
+"створено вхідного відвантаження"
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__qty
+msgid "Quantity to Receive"
+msgstr "Кількість для отримання"
+
+#. module: purchase_manual_delivery
+#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_line_search
+msgid "Reception confirmed"
+msgstr "Приймання підтверджено"
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__partner_id
+msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
+msgstr ""
+"Постачальника можна знайти за назвою, ІПН, електронною поштою або внутрішнім"
+" посиланням."

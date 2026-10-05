@@ -31,6 +31,9 @@ msgid ""
 "supplied by this supplier when creating a supplier invoice or purchase for "
 "it. This value can be changed by invoice or purchase."
 msgstr ""
+"Якщо позначено, за замовчуванням під час створення рахунку постачальника або"
+" закупівлі для нього можна буде вибирати лише товари, які цей постачальник "
+"може постачати. Це значення можна змінити в окремому рахунку або закупівлі."
 
 #. module: purchase_allowed_product
 #: model:ir.model.fields,help:purchase_allowed_product.field_account_bank_statement_line__use_only_supplied_product
@@ -40,6 +43,8 @@ msgstr ""
 #: model:ir.model.fields,help:purchase_allowed_product.field_supplied_product_mixin__use_only_supplied_product
 msgid "If checked, only the products provided by this supplier will be shown."
 msgstr ""
+"Якщо позначено, відображатимуться лише товари, що постачаються цим "
+"постачальником."
 
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_account_move

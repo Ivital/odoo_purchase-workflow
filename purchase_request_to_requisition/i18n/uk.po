@@ -27,7 +27,7 @@ msgstr ""
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "At least a Draft Bid has been created"
-msgstr ""
+msgstr "Створено принаймні одну чернетку пропозиції"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
@@ -37,12 +37,12 @@ msgstr "Принаймні одне PO підтверджено"
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "At least one of the Bids has been completed"
-msgstr ""
+msgstr "Принаймні одну з пропозицій завершено"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "Bid Sent to Suppliers"
-msgstr ""
+msgstr "Пропозицію надіслано постачальникам"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__requisition_state
@@ -104,12 +104,12 @@ msgstr ""
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_line_make_purchase_requisition
 msgid "Existing draft purchase agreement to update:"
-msgstr ""
+msgstr "Наявна чернетка угоди закупівлі для оновлення:"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_requisition_line__has_purchase_request_lines
 msgid "Has Purchase Request Lines"
-msgstr ""
+msgstr "Має рядки запиту на закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition__id
@@ -158,7 +158,7 @@ msgstr "Без ставки"
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "No Bid has been created"
-msgstr ""
+msgstr "Жодної пропозиції не створено"
 
 #. module: purchase_request_to_requisition
 #: code:addons/purchase_request_to_requisition/models/product.py:0
@@ -209,7 +209,7 @@ msgstr "Запит на закупівлю"
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_requisition__purchase_request_count
 msgid "Purchase Request Count"
-msgstr ""
+msgstr "Кількість запитів на закупівлю"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line
@@ -252,7 +252,7 @@ msgstr ""
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line__requisition_qty
 msgid "Quantity in a Bid"
-msgstr ""
+msgstr "Кількість у пропозиції"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request_line_make_purchase_requisition_item__product_qty
@@ -267,12 +267,12 @@ msgstr "Запит"
 #. module: purchase_request_to_requisition
 #: model:ir.model.fields,field_description:purchase_request_to_requisition.field_purchase_request__requisition_count
 msgid "Requisition Count"
-msgstr ""
+msgstr "Кількість заявок"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.purchase_request_line_search
 msgid "Requisition Status"
-msgstr ""
+msgstr "Статус заявки"
 
 #. module: purchase_request_to_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_request_to_requisition.view_purchase_request_form

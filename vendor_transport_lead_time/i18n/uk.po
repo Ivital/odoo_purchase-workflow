@@ -27,3 +27,23 @@ msgstr "Термін транспортування"
 #: model_terms:ir.ui.view,arch_db:vendor_transport_lead_time.product_supplierinfo_form_view
 msgid "days"
 msgstr "дні"
+
+#. module: vendor_transport_lead_time
+#: model_terms:ir.ui.view,arch_db:vendor_transport_lead_time.report_purchaseorder_document
+msgid "<strong>Date Req.</strong>"
+msgstr "<strong>Дата запиту</strong>"
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,field_description:vendor_transport_lead_time.field_purchase_order_line__report_date_planned
+msgid "Date planned (used by report)"
+msgstr "Запланована дата (використовується звітом)"
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,field_description:vendor_transport_lead_time.field_product_supplierinfo__delay
+msgid "Delivery Lead Time"
+msgstr "Термін доставки"
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,field_description:vendor_transport_lead_time.field_purchase_order_line__supplier_date_planned
+msgid "Supplier Scheduled Date"
+msgstr "Запланована дата постачальника"

@@ -276,3 +276,54 @@ msgstr "⇒ Створити план рахунків"
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.purchase_order_form
 msgid "⇒ Remove Invoice Plan"
 msgstr "⇒ Видалити план рахунків"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
+msgid "Bill Purchase Order"
+msgstr "Рахунок замовлення на закупівлю"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
+msgid ""
+"Bills will be created in draft for this installment\n"
+"                        so that you can review them before validation."
+msgstr ""
+"Для цього платежу частинами рахунки буде створено як чернетки,\n"
+"                        щоб ви могли перевірити їх перед підтвердженням."
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
+msgid "Create All Remaining Bills"
+msgstr "Створити всі залишкові рахунки"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.purchase_order_form
+msgid "Create Bill by Plan"
+msgstr "Створити рахунок за планом"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Purchase orders that have been invoiced."
+msgstr "Замовлення закупівлі, за якими виставлено рахунки."
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Purchase orders that include lines not invoiced."
+msgstr "Замовлення закупівлі з невиставленими рядками."
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
+msgid "Search Purchase Invoice Plan Lines"
+msgstr "Пошук рядків плану рахунків закупівлі"
+
+#. module: purchase_invoice_plan
+#: model_terms:ir.actions.act_window,help:purchase_invoice_plan.action_purchase_invoice_plan
+msgid "View purchase invoice plan lines"
+msgstr "Переглянути рядки плану рахунків закупівлі"
+
+#. module: purchase_invoice_plan
+#: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__partner_id
+msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
+msgstr ""
+"Постачальника можна знайти за назвою, ІПН, електронною поштою або внутрішнім"
+" посиланням."

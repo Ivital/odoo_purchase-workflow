@@ -186,3 +186,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:purchase_work_acceptance_evaluation.field_work_acceptance_evaluation__state_required
 msgid "State Required"
 msgstr "Стан обов’язковий"
+
+#. module: purchase_work_acceptance_evaluation
+#: model:ir.model.fields,field_description:purchase_work_acceptance_evaluation.field_work_acceptance__evaluation_result_ids
+msgid "Evaluation Results"
+msgstr "Результати оцінювання"
