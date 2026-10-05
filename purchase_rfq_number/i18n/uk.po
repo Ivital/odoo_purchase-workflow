@@ -52,3 +52,13 @@ msgid ""
 msgstr ""
 "Якщо вимкнено, запити комерційної пропозиції на закупівлю використовують "
 "іншу послідовність, ніж замовлення на закупівлю"
+
+#. module: purchase_rfq_number
+#: model:ir.model.fields,help:purchase_rfq_number.field_res_company__keep_name_po
+#: model:ir.model.fields,help:purchase_rfq_number.field_res_config_settings__keep_name_po
+msgid ""
+"If this is unchecked, purchase rfq use a different sequence from Purchase "
+"orders"
+msgstr ""
+"Якщо вимкнено, запит комерційної пропозиції на закупівлю використовує іншу "
+"послідовність, ніж замовлення на закупівлю"

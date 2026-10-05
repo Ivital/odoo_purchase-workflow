@@ -440,3 +440,38 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:purchase_container.field_purchase_container__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: purchase_container
+#: model:ir.model.fields,help:purchase_container.field_purchase_container__date_ata
+msgid "Actual Time Of Arrival"
+msgstr "Фактичний час прибуття"
+
+#. module: purchase_container
+#: model:ir.model.fields,help:purchase_container.field_purchase_container__date_atd
+msgid "Actual Time Of Departure"
+msgstr "Фактичний час відправлення"
+
+#. module: purchase_container
+#: model:ir.model.fields,help:purchase_container.field_purchase_container__date_eta
+msgid "Estimated Time Of Arrival"
+msgstr "Орієнтовний час прибуття"
+
+#. module: purchase_container
+#: model:ir.model.fields,help:purchase_container.field_purchase_container__date_etd
+msgid "Estimated Time Of Departure"
+msgstr "Орієнтовний час відправлення"
+
+#. module: purchase_container
+#: model:ir.model.fields,help:purchase_container.field_purchase_container__date_ett
+msgid "Estimated Time Of Travel"
+msgstr "Орієнтовний час у дорозі"
+
+#. module: purchase_container
+#: model:ir.model,name:purchase_container.model_purchase_container
+msgid "Purchase order related container"
+msgstr "Контейнер, пов’язаний із замовленням на закупівлю"
+
+#. module: purchase_container
+#: model:ir.model,name:purchase_container.model_container_type
+msgid "Usual containers"
+msgstr "Звичайні контейнери"

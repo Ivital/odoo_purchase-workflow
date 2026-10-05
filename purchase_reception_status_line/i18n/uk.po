@@ -210,3 +210,12 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:purchase_reception_status_line.field_purchase_order_line__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: purchase_reception_status_line
+#: model:ir.model.fields,help:purchase_reception_status_line.field_purchase_order__force_received
+msgid ""
+"If true, the order is marked forced only when all lines are fully received "
+"and at least one line was manually forced."
+msgstr ""
+"Якщо True, замовлення позначається примусово лише коли всі рядки повністю "
+"отримано і щонайменше один рядок було примусово позначено вручну."

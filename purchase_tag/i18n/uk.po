@@ -95,3 +95,8 @@ msgstr "Створити нові теги для замовлень закуп�
 #: model:ir.model.constraint,message:purchase_tag.constraint_purchase_tag_tag_name_uniq
 msgid "Tag name already exists !"
 msgstr "Тег із такою назвою вже існує!"
+
+#. module: purchase_tag
+#: model:ir.model,name:purchase_tag.model_purchase_tag
+msgid "Purchase Tag"
+msgstr "Тег закупівлі"

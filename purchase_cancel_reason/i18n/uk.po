@@ -21,7 +21,7 @@ msgstr ""
 #. module: purchase_cancel_reason
 #: model:ir.model,name:purchase_cancel_reason.model_purchase_order_cancel
 msgid "Ask a reason for the purchase order cancellation."
-msgstr ""
+msgstr "Запитувати причину скасування замовлення на закупівлю."
 
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.purchase_order_form
@@ -72,7 +72,7 @@ msgstr "ID"
 #. module: purchase_cancel_reason
 #: model:purchase.order.cancel.reason,name:purchase_cancel_reason.cancel_reason_only_quotation
 msgid "Just for Quotation"
-msgstr ""
+msgstr "Лише для комерційної пропозиції"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__write_uid
@@ -89,7 +89,7 @@ msgstr "Дата останньої зміни"
 #. module: purchase_cancel_reason
 #: model:purchase.order.cancel.reason,name:purchase_cancel_reason.cancel_reason_other_provider
 msgid "Other Service Provider selected"
-msgstr ""
+msgstr "Вибрано іншого постачальника послуг"
 
 #. module: purchase_cancel_reason
 #: model:ir.model,name:purchase_cancel_reason.model_purchase_order
@@ -134,7 +134,7 @@ msgstr "Причина скасування"
 #. module: purchase_cancel_reason
 #: model:purchase.order.cancel.reason,name:purchase_cancel_reason.cancel_reason_no_service_needed
 msgid "Service no longer needed"
-msgstr ""
+msgstr "Послуга більше не потрібна"
 
 #. module: purchase_cancel_reason
 #. odoo-python

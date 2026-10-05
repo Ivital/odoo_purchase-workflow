@@ -27,3 +27,13 @@ msgid ""
 msgstr ""
 "Автоматично створювати прайс-листи постачальників під час підтвердження "
 "замовлень на закупівлю"
+
+#. module: product_supplierinfo_disable_autocreation
+#: model:ir.model.fields,help:product_supplierinfo_disable_autocreation.field_res_company__purchase_pricelist_disable_autocreate
+#: model:ir.model.fields,help:product_supplierinfo_disable_autocreation.field_res_config_settings__purchase_pricelist_disable_autocreate
+msgid ""
+"When enabled, the system will automatically create supplier pricelists when "
+"validating purchase orders."
+msgstr ""
+"Якщо ввімкнено, система автоматично створюватиме прайс-листи постачальників "
+"під час підтвердження замовлень на закупівлю."

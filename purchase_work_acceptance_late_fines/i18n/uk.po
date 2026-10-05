@@ -150,3 +150,48 @@ msgstr "Кількість рахунків штрафів"
 msgid "You can create fines as either customer invoice or vendor refund."
 msgstr ""
 "Можна створювати штрафи як рахунок клієнта або повернення постачальника."
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,help:purchase_work_acceptance_late_fines.field_work_acceptance__fines_late
+msgid "Computed amount. Can be overwritten"
+msgstr "Розрахована сума. Можна перевизначити"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model,name:purchase_work_acceptance_late_fines.model_work_acceptance_create_fines
+msgid "Create Fines Invoice/Refund from WA"
+msgstr "Створити рахунок/повернення штрафів із приймання робіт"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,help:purchase_work_acceptance_late_fines.field_work_acceptance__fines_rate
+msgid "Default fines per day. Can be overwritten"
+msgstr "Типовий штраф за день. Можна перевизначити"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,help:purchase_work_acceptance_late_fines.field_account_bank_statement_line__late_wa_id
+#: model:ir.model.fields,help:purchase_work_acceptance_late_fines.field_account_move__late_wa_id
+msgid ""
+"For the supplier with late penalty (from work acceptance), choosing the late"
+" WA to get the amount this partner need to pay."
+msgstr ""
+"Для постачальника зі штрафом за прострочення (з приймання робіт) виберіть "
+"прострочене приймання робіт, щоб отримати суму, яку партнер має сплатити."
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.fields,help:purchase_work_acceptance_late_fines.field_work_acceptance__late_days
+msgid "Late day(s) from Received Date - Due Date"
+msgstr "День(дні) прострочення від дати отримання до терміну оплати"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.constraint,message:purchase_work_acceptance_late_fines.constraint_work_acceptance_fines_late
+msgid "Wrong Fines Amount, it must be positive!"
+msgstr "Неправильна сума штрафу, вона має бути додатною!"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.constraint,message:purchase_work_acceptance_late_fines.constraint_work_acceptance_fines_rate
+msgid "Wrong Fines Rate, it must be positive!"
+msgstr "Неправильна ставка штрафу, вона має бути додатною!"
+
+#. module: purchase_work_acceptance_late_fines
+#: model:ir.model.constraint,message:purchase_work_acceptance_late_fines.constraint_work_acceptance_late_days
+msgid "Wrong Late Days, it must be positive!"
+msgstr "Неправильна кількість днів прострочення, має бути додатною!"

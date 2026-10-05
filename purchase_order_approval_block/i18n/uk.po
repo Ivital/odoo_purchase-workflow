@@ -79,3 +79,27 @@ msgstr "Заблоковано для затвердження"
 #: model_terms:ir.ui.view,arch_db:purchase_order_approval_block.purchase_order_form
 msgid "Release Approval Block"
 msgstr "Зняти блокування схвалення"
+
+#. module: purchase_order_approval_block
+#: model:ir.model,name:purchase_order_approval_block.model_purchase_approval_block_reason
+msgid "Purchase Approval Block Reason"
+msgstr "Причина блокування схвалення закупівлі"
+
+#. module: purchase_order_approval_block
+#: model:ir.model,name:purchase_order_approval_block.model_purchase_exception_confirm
+msgid "Purchase exception wizard"
+msgstr "Майстер винятку закупівлі"
+
+#. module: purchase_order_approval_block
+#: model:res.groups,name:purchase_order_approval_block.group_rfq_approval_block
+msgid "Release RFQ with approval block"
+msgstr "Випустити RFQ із блокуванням схвалення"
+
+#. module: purchase_order_approval_block
+#: model:exception.rule,description:purchase_order_approval_block.po_excep_approval_block
+msgid ""
+"The approval has been blocked,\n"
+"                with a Blocking reason."
+msgstr ""
+"Погодження заблоковано,\n"
+"                із зазначенням причини блокування."

@@ -29,3 +29,8 @@ msgstr "Типова адреса Incoterm закупівлі"
 #: model:ir.model.fields,field_description:purchase_partner_incoterm.field_purchase_order__incoterm_address_id
 msgid "Incoterm Address"
 msgstr "Адреса Incoterm"
+
+#. module: purchase_partner_incoterm
+#: model:ir.model.fields,help:purchase_partner_incoterm.field_purchase_order__incoterm_address_id
+msgid "Address where goods responsibility is transferred to the buyer"
+msgstr "Адреса, де відповідальність за товар переходить до покупця"

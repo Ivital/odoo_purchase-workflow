@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_force_invoiced_quantity.field_purchase_order_line__force_invoiced_qty
 msgid "Force Invoiced Qty"
 msgstr "Примусова кількість у рахунку"
+
+#. module: purchase_force_invoiced_quantity
+#: model:ir.model.fields,help:purchase_force_invoiced_quantity.field_purchase_order_line__force_invoiced_qty
+msgid ""
+"This amount will be deducted from quantity to invoice.\n"
+"quantity to invoice = delivered - invoiced - force invoiced qty"
+msgstr ""
+"Ця сума буде віднята від кількості до виставлення рахунка.\n"
+"кількість до рахунка = доставлено - виставлено - примусово виставлена кількість"

@@ -178,3 +178,48 @@ msgid ""
 msgstr ""
 "Загальна сума не дорівнює сумі платежу частинами. Ви впевнені, що хочете "
 "продовжити?"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model.fields,help:purchase_work_acceptance_invoice_plan.field_select_work_acceptance_invoice_plan_wizard__apply_method_id
+msgid "Choose the method to find matcing product line for this installment"
+msgstr ""
+"Виберіть метод пошуку відповідного рядка товару для цього платежу частинами"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model,name:purchase_work_acceptance_invoice_plan.model_select_work_acceptance_invoice_plan_qty
+msgid "Compute quantity of each WA lines, according to product lines"
+msgstr "Обчислити кількість кожного рядка WA відповідно до рядків товарів"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model,name:purchase_work_acceptance_invoice_plan.model_purchase_invoice_plan
+msgid "Invoice Planning Detail"
+msgstr "Деталі планування рахунка"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model.fields,help:purchase_work_acceptance_invoice_plan.field_select_work_acceptance_invoice_plan_wizard__order_line_ids
+msgid "List of product lines used to create WA. Blank means all"
+msgstr ""
+"Список рядків товарів, що використовуються для створення WA. Порожнє означає"
+" всі"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model.fields,help:purchase_work_acceptance_invoice_plan.field_select_work_acceptance_invoice_plan_wizard__installment_id
+msgid "List only installment that has not been used in WA (draft, accepted)"
+msgstr ""
+"Показувати лише платежі частинами, які ще не використані у WA (чернетка, "
+"прийнято)"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model,name:purchase_work_acceptance_invoice_plan.model_select_work_acceptance_invoice_plan_wizard
+msgid "Select Work Acceptance Invoice Plan Wizard"
+msgstr "Майстер плану рахунків приймання робіт"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model,name:purchase_work_acceptance_invoice_plan.model_select_work_acceptance_wizard
+msgid "Select Work Acceptance Wizard"
+msgstr "Майстер вибору приймання робіт"
+
+#. module: purchase_work_acceptance_invoice_plan
+#: model:ir.model.constraint,message:purchase_work_acceptance_invoice_plan.constraint_select_work_acceptance_invoice_plan_qty_order_line_unique
+msgid "You are selecting same product line more than one."
+msgstr "Ви вибираєте той самий рядок товару більше одного разу."

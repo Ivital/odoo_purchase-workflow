@@ -569,3 +569,37 @@ msgstr "Представник приймання робіт"
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_purchase_order__wa_ids
 msgid "Work Acceptances"
 msgstr "Приймання робіт"
+
+#. module: purchase_work_acceptance
+#. odoo-python
+#: code:addons/purchase_work_acceptance/models/purchase.py:0
+msgid "Operation not supported"
+msgstr "Операція не підтримується"
+
+#. module: purchase_work_acceptance
+#: model:ir.model,name:purchase_work_acceptance.model_work_accepted_date_wizard
+msgid "Select work accepted date"
+msgstr "Виберіть дату приймання робіт"
+
+#. module: purchase_work_acceptance
+#: model:ir.model.fields,help:purchase_work_acceptance.field_account_bank_statement_line__wa_id
+#: model:ir.model.fields,help:purchase_work_acceptance.field_account_move__wa_id
+msgid ""
+"To control quantity and unit price of the vendor bill, to be according to "
+"the quantity and unit price of the work acceptance."
+msgstr ""
+"Контролювати кількість і ціну за одиницю в рахунку постачальника відповідно "
+"до кількості та ціни за одиницю в прийманні робіт."
+
+#. module: purchase_work_acceptance
+#: model:ir.model.fields,help:purchase_work_acceptance.field_stock_picking_type__bypass_wa
+msgid ""
+"When 'Enforce WA on Goods Receipt' is set, this option type can by pass it"
+msgstr ""
+"Коли встановлено «Enforce WA on Goods Receipt», цей тип параметра може його "
+"обійти"
+
+#. module: purchase_work_acceptance
+#: model:ir.model,name:purchase_work_acceptance.model_work_acceptance_line
+msgid "Work Acceptance Line"
+msgstr "Рядок приймання робіт"

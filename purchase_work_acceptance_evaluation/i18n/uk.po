@@ -191,3 +191,18 @@ msgstr "Стан обов’язковий"
 #: model:ir.model.fields,field_description:purchase_work_acceptance_evaluation.field_work_acceptance__evaluation_result_ids
 msgid "Evaluation Results"
 msgstr "Результати оцінювання"
+
+#. module: purchase_work_acceptance_evaluation
+#: model:ir.model.fields,help:purchase_work_acceptance_evaluation.field_work_acceptance_evaluation__state_required
+msgid "Status of Work Acceptance that user need to fill the evaluation"
+msgstr "Статус приймання робіт, для якого користувач має заповнити оцінювання"
+
+#. module: purchase_work_acceptance_evaluation
+#: model:ir.model,name:purchase_work_acceptance_evaluation.model_work_acceptance_evaluation_result
+msgid "Work Acceptance Evaluation Result"
+msgstr "Результат оцінювання приймання робіт"
+
+#. module: purchase_work_acceptance_evaluation
+#: model:ir.model,name:purchase_work_acceptance_evaluation.model_work_acceptance_evaluation_score
+msgid "Work Acceptance Evaluation Score"
+msgstr "Оцінка приймання робіт"

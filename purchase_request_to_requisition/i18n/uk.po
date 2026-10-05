@@ -220,12 +220,12 @@ msgstr "Рядок запиту на закупівлю"
 #. module: purchase_request_to_requisition
 #: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line_make_purchase_requisition
 msgid "Purchase Request Line Make Purchase Agreement"
-msgstr ""
+msgstr "Рядок запиту на закупівлю: створити угоду закупівлі"
 
 #. module: purchase_request_to_requisition
 #: model:ir.model,name:purchase_request_to_requisition.model_purchase_request_line_make_purchase_requisition_item
 msgid "Purchase Request Line Make Purchase Agreement Item"
-msgstr ""
+msgstr "Елемент створення угоди закупівлі з рядка запиту"
 
 #. module: purchase_request_to_requisition
 #: code:addons/purchase_request_to_requisition/models/purchase_requisition.py:0

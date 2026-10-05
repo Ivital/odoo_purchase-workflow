@@ -47,3 +47,24 @@ msgstr "Термін доставки"
 #: model:ir.model.fields,field_description:vendor_transport_lead_time.field_purchase_order_line__supplier_date_planned
 msgid "Supplier Scheduled Date"
 msgstr "Запланована дата постачальника"
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,help:vendor_transport_lead_time.field_product_supplierinfo__delay
+msgid ""
+"Lead time in days between the confirmation of the purchase order and the "
+"receipt of the products in your warehouse. Used by the scheduler for "
+"automatic computation of the purchase order planning."
+msgstr ""
+"Час виконання в днях між підтвердженням замовлення на закупівлю та "
+"надходженням товарів на ваш склад. Використовується планувальником для "
+"автоматичного розрахунку планування замовлення на закупівлю."
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,help:vendor_transport_lead_time.field_product_supplierinfo__supplier_delay
+msgid "Supplier lead time in days."
+msgstr "Термін постачання постачальника в днях."
+
+#. module: vendor_transport_lead_time
+#: model:ir.model.fields,help:vendor_transport_lead_time.field_product_supplierinfo__transport_delay
+msgid "Transport lead time in days."
+msgstr "Термін транспортування в днях."

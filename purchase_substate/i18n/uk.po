@@ -28,3 +28,25 @@ msgstr "Підстан"
 #: model:ir.model.fields.selection,name:purchase_substate.selection__base_substate_type__model__purchase_order
 msgid "Purchase Order"
 msgstr "Замовлення на закупівлю"
+
+#. module: purchase_substate
+#: model:mail.template,name:purchase_substate.mail_template_data_purchase_substate_delivery
+msgid "In delevery"
+msgstr "У доставці"
+
+#. module: purchase_substate
+#: model:base.substate.type,name:purchase_substate.base_substate_type_purchase
+msgid "Purchase Order Substate"
+msgstr "Підстан замовлення на закупівлю"
+
+#. module: purchase_substate
+#: model:mail.template,subject:purchase_substate.mail_template_data_purchase_substate_delivery
+#: model:mail.template,subject:purchase_substate.mail_template_data_purchase_substate_wait_docs
+msgid "Reception of {{ object.name }}"
+msgstr "Отримання {{ object.name }}"
+
+#. module: purchase_substate
+#: model:base.substate,name:purchase_substate.base_substate_wait_docs
+#: model:mail.template,name:purchase_substate.mail_template_data_purchase_substate_wait_docs
+msgid "Waiting for legal documents"
+msgstr "Очікування юридичних документів"

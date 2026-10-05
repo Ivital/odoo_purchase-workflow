@@ -23,3 +23,12 @@ msgstr "Власник"
 #: model:ir.model.fields,field_description:purchase_order_owner.field_purchase_order__owner_id
 msgid "Assign Owner"
 msgstr "Призначити власника"
+
+#. module: purchase_order_owner
+#: model:ir.model.fields,help:purchase_order_owner.field_purchase_order__owner_id
+msgid ""
+"The assigned value will be set on the corresponding field of the incoming "
+"stock picking."
+msgstr ""
+"Призначене значення буде встановлено у відповідному полі вхідного "
+"складського комплектування."

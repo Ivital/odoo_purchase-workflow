@@ -59,3 +59,18 @@ msgstr "Доставлена кількість"
 #: model:ir.actions.report,name:purchase_order_product_recommendation_xlsx.recommendation_xlsx
 msgid "Product Recommendation XLSX"
 msgstr "Рекомендація товару XLSX"
+
+#. module: purchase_order_product_recommendation_xlsx
+#: model:ir.model,name:purchase_order_product_recommendation_xlsx.model_report_purchase_order_product_recommendation_xlsx_summary
+msgid "Abstract model to export as xlsx the product recommendation"
+msgstr "Абстрактна модель для експорту рекомендацій товарів у XLSX"
+
+#. module: purchase_order_product_recommendation_xlsx
+#: model:ir.model,name:purchase_order_product_recommendation_xlsx.model_purchase_order_recommendation_line
+msgid "Recommended product for current purchase order"
+msgstr "Рекомендований товар для поточного замовлення на закупівлю"
+
+#. module: purchase_order_product_recommendation_xlsx
+#: model:ir.model,name:purchase_order_product_recommendation_xlsx.model_purchase_order_recommendation
+msgid "Recommended products for current purchase order"
+msgstr "Рекомендовані товари для поточного замовлення на закупівлю"

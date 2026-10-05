@@ -717,3 +717,34 @@ msgstr "Попередження для рамкових замовлень"
 #: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order_line__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: purchase_blanket_order
+#: model:ir.model,name:purchase_blanket_order.model_purchase_blanket_order_wizard
+msgid "Blanket Order Wizard"
+msgstr "Майстер рамкового замовлення"
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__date_start
+msgid "Blanket Order starting date."
+msgstr "Дата початку рамкового замовлення."
+
+#. module: purchase_blanket_order
+#: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__validity_date
+msgid ""
+"Date until which the blanket order will be valid, after this date the "
+"blanket order will be marked as expired"
+msgstr ""
+"Дата, до якої рамкове замовлення чинне; після неї воно буде позначене як "
+"прострочене"
+
+#. module: purchase_blanket_order
+#: model:res.groups,name:purchase_blanket_order.purchase_blanket_orders_disable_adding_lines
+msgid "Disable adding more lines to POs from Purchase Blanket Orders"
+msgstr ""
+"Заборонити додавання нових рядків до замовлень на закупівлю з рамкових "
+"замовлень"
+
+#. module: purchase_blanket_order
+#: model:ir.model,name:purchase_blanket_order.model_purchase_blanket_order_wizard_line
+msgid "Purchase Blanket Order Wizard Line"
+msgstr "Рядок майстра рамкового замовлення закупівлі"

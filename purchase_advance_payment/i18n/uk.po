@@ -230,3 +230,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
 msgid "Vendor Advance Payments"
 msgstr "Авансові платежі постачальнику"
+
+#. module: purchase_advance_payment
+#: model:ir.model,name:purchase_advance_payment.model_account_voucher_wizard_purchase
+msgid "Account Voucher Wizard Purchase"
+msgstr "Майстер закупівельного ваучера рахунку"

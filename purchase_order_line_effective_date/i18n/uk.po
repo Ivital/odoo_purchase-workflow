@@ -23,3 +23,13 @@ msgstr "Дата набрання чинності"
 #: model:ir.model.fields,field_description:purchase_order_line_effective_date.field_purchase_report__last_effective_date
 msgid "Last Effective Date"
 msgstr "Остання дата набрання чинності"
+
+#. module: purchase_order_line_effective_date
+#: model:ir.model.fields,help:purchase_order_line_effective_date.field_purchase_order_line__effective_date
+msgid "Completion date of the first receipt order."
+msgstr "Дата завершення першого замовлення на отримання."
+
+#. module: purchase_order_line_effective_date
+#: model:ir.model.fields,help:purchase_order_line_effective_date.field_purchase_order_line__last_effective_date
+msgid "Completion date of the last receipt order."
+msgstr "Дата завершення останнього замовлення на отримання."

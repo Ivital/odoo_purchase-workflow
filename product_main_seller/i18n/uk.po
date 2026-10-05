@@ -19,3 +19,11 @@ msgstr "Основний постачальник товару"
 #: model_terms:ir.ui.view,arch_db:product_main_seller.view_product_template_search
 msgid "Main Vendor"
 msgstr "Основний постачальник"
+
+#. module: product_main_seller
+#: model:ir.model.fields,help:product_main_seller.field_product_product__main_seller_id
+#: model:ir.model.fields,help:product_main_seller.field_product_template__main_seller_id
+msgid "Put your supplier info in first position to set as main vendor"
+msgstr ""
+"Розташуйте інформацію про постачальника першою, щоб установити його основним"
+" постачальником"

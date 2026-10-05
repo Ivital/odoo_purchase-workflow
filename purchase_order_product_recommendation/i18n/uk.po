@@ -211,3 +211,52 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr ""
 "Постачальника можна знайти за назвою, ІПН, електронною поштою або внутрішнім"
 " посиланням."
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__warehouse_ids
+msgid "Constrain search to an specific warehouse"
+msgstr "Обмежити пошук конкретним складом"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation_line__product_uom_id
+msgid ""
+"Default unit of measure used for purchase orders. It must be in the same "
+"category as the default unit of measure."
+msgstr ""
+"Одиниця виміру за замовчуванням для замовлень на закупівлю. Вона має бути в "
+"тій самій категорії, що й типова одиниця виміру."
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__product_category_ids
+msgid "Filter by product internal category"
+msgstr "Фільтр за внутрішньою категорією товару"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__date_end
+msgid "Final date to compute recommendations."
+msgstr "Кінцева дата для розрахунку рекомендацій."
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__date_begin
+msgid "Initial date to compute recommendations."
+msgstr "Початкова дата для розрахунку рекомендацій."
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_partner_products
+msgid "Show all products with supplier infos for this supplier"
+msgstr ""
+"Показати всі товари з інформацією постачальника для цього постачальника"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__line_amount
+msgid ""
+"Stablish a limit on how many recommendations you want to get.Leave it as 0 "
+"to set no limit"
+msgstr ""
+"Установіть обмеження кількості рекомендацій. Залиште 0, щоб не встановлювати"
+" обмеження"
+
+#. module: purchase_order_product_recommendation
+#: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_products
+msgid "Useful if a product hasn't been selled by the partner yet"
+msgstr "Корисно, якщо партнер ще не продавав цей товар"

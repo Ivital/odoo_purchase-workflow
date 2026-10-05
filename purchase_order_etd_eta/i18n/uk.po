@@ -42,3 +42,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_order_etd_eta.field_purchase_order__shipping_schedule_note
 msgid "Shipping Schedule Note"
 msgstr "Примітка до графіка доставки"
+
+#. module: purchase_order_etd_eta
+#: model:ir.model.fields,help:purchase_order_etd_eta.field_purchase_order__shipping_schedule_note
+msgid ""
+"Additional shipping schedule instructions or clarifications. Use this field "
+"when ETD or ETA cannot be expressed as a specific date (for example: ASAP, "
+"TBD, etc.)."
+msgstr ""
+"Додаткові інструкції або уточнення щодо графіка відправлення. Використовуйте"
+" це поле, коли ETD або ETA неможливо виразити конкретною датою (наприклад: "
+"ASAP, TBD тощо)."
+
+#. module: purchase_order_etd_eta
+#: model:ir.model.fields,help:purchase_order_etd_eta.field_purchase_order__date_eta
+msgid "Estimated Time of Arrival"
+msgstr "Орієнтовний час прибуття"
+
+#. module: purchase_order_etd_eta
+#: model:ir.model.fields,help:purchase_order_etd_eta.field_purchase_order__date_etd
+msgid "Estimated Time of Departure"
+msgstr "Орієнтовний час відправлення"

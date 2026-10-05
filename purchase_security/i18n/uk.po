@@ -107,3 +107,13 @@ msgstr "напр., Європа"
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_order__is_user_id_editable
 msgid "Is User Id Editable"
 msgstr "ID користувача можна редагувати"
+
+#. module: purchase_security
+#: model:res.groups,name:purchase_security.group_purchase_own_orders
+msgid "User (own orders)"
+msgstr "Користувач (власні замовлення)"
+
+#. module: purchase_security
+#: model:res.groups,name:purchase_security.group_purchase_group_orders
+msgid "User (team orders)"
+msgstr "Користувач (замовлення команди)"

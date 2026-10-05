@@ -22,3 +22,12 @@ msgstr "Автоматично"
 #: model:ir.model.fields,field_description:purchase_receipt_expectation.field_purchase_order__receipt_expectation
 msgid "Receipt Expectation"
 msgstr "Очікуване приймання"
+
+#. module: purchase_receipt_expectation
+#: model:ir.model.fields,help:purchase_receipt_expectation.field_purchase_order__receipt_expectation
+msgid ""
+"Defines how reception pickings are managed when the order is approved.\n"
+"Default value is 'automatic', which means the picking will be created following the standard Odoo workflow."
+msgstr ""
+"Визначає, як керуються вхідні передачі після затвердження замовлення.\n"
+"Стандартне значення — 'automatic', тобто передача створюється відповідно до стандартного процесу Odoo."

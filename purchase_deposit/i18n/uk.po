@@ -147,3 +147,48 @@ msgstr "Зареєструвати депозит"
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__advance_payment_method
 msgid "What do you want to invoice?"
 msgstr "Що ви хочете виставити в рахунок?"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__deposit_account_id
+msgid "Account used for deposits"
+msgstr "Рахунок для авансів"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,help:purchase_deposit.field_res_company__purchase_deposit_product_id
+#: model:ir.model.fields,help:purchase_deposit.field_res_config_settings__purchase_deposit_product_id
+msgid "Default product used for payment advances."
+msgstr "Товар за замовчуванням для авансових платежів."
+
+#. module: purchase_deposit
+#: model:ir.model.fields,help:purchase_deposit.field_purchase_order_line__is_deposit
+msgid ""
+"Deposit payments are made when creating bills from a purchase order. They "
+"are not copied when duplicating a purchase order."
+msgstr ""
+"Авансові платежі здійснюються під час створення рахунків із замовлення на "
+"закупівлю. Під час дублювання замовлення вони не копіюються."
+
+#. module: purchase_deposit
+#: model:ir.model,name:purchase_deposit.model_purchase_advance_payment_inv
+msgid "Purchase Advance Payment Invoice"
+msgstr "Рахунок авансового платежу закупівлі"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,help:purchase_deposit.field_res_company__purchase_deposit_limit_order_total
+#: model:ir.model.fields,help:purchase_deposit.field_res_config_settings__purchase_deposit_limit_order_total
+msgid ""
+"Refuse a deposit when the deposits already invoiced, plus the one being "
+"registered, exceed the purchase order total."
+msgstr ""
+"Відхилити аванс, якщо вже виставлені аванси разом із тим, що реєструється, "
+"перевищують загальну суму замовлення на закупівлю."
+
+#. module: purchase_deposit
+#: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__deposit_taxes_id
+msgid "Taxes used for deposits"
+msgstr "Податки, що використовуються для авансів"
+
+#. module: purchase_deposit
+#: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__amount
+msgid "The amount to be invoiced in advance, taxes excluded."
+msgstr "Сума для авансового виставлення рахунка без податків."

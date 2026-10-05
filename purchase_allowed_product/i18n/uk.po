@@ -54,7 +54,7 @@ msgstr ""
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_supplied_product_mixin
 msgid "Mixin for documents that want to restrict products"
-msgstr ""
+msgstr "Міксин для документів, що обмежують товари"
 
 #. module: purchase_allowed_product
 #: model:ir.model.fields,field_description:purchase_allowed_product.field_res_partner__use_only_supplied_product

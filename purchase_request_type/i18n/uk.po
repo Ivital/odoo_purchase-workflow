@@ -124,3 +124,8 @@ msgstr "Натисніть, щоб встановити новий тип зап
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request__name
 msgid "Request Reference"
 msgstr "Посилання на запит"
+
+#. module: purchase_request_type
+#: model:ir.model,name:purchase_request_type.model_purchase_request_type
+msgid "Type of purchase request"
+msgstr "Тип запиту на закупівлю"

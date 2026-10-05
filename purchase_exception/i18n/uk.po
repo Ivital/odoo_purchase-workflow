@@ -123,3 +123,18 @@ msgstr "Закупівля: тест винятку чернетки замов�
 #: model:exception.rule,name:purchase_exception.pol_excep_qty_check
 msgid "Quantity not positive"
 msgstr "Кількість не є додатною"
+
+#. module: purchase_exception
+#: model:exception.rule,description:purchase_exception.po_excep_no_email
+msgid "No Email for Vendor"
+msgstr "Без email постачальнику"
+
+#. module: purchase_exception
+#: model:exception.rule,name:purchase_exception.po_excep_no_email
+msgid "No email on vendor"
+msgstr "Без email постачальнику"
+
+#. module: purchase_exception
+#: model:exception.rule,description:purchase_exception.pol_excep_qty_check
+msgid "Purchase line quantity must be positive"
+msgstr "Кількість у рядку закупівлі має бути додатною"

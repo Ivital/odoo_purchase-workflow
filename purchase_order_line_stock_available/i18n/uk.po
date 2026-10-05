@@ -17,3 +17,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_order_line_stock_available.field_purchase_order_line__virtual_available
 msgid "Forecasted Quantity"
 msgstr "Прогнозована кількість"
+
+#. module: purchase_order_line_stock_available
+#: model:ir.model.fields,help:purchase_order_line_stock_available.field_purchase_order_line__virtual_available
+msgid ""
+"Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+"In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+"Прогнозована кількість (обчислюється як Кількість у наявності - Вихідні + Вхідні)\n"
+"У контексті одного складського розташування враховуються товари, що зберігаються в цьому розташуванні або будь-якому з його дочірніх.\n"
+"У контексті одного складу враховуються товари, що зберігаються у складському розташуванні цього складу або будь-якому з його дочірніх.\n"
+"В інших випадках враховуються товари, що зберігаються в будь-якому складському розташуванні типу 'internal'."

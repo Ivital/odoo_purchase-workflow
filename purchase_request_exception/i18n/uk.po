@@ -119,3 +119,23 @@ msgstr "Рядок запиту на закупівлю"
 #: model:exception.rule,name:purchase_request_exception.prl_excep_qty_check
 msgid "Quantity not positive"
 msgstr "Кількість не є додатною"
+
+#. module: purchase_request_exception
+#: model:exception.rule,name:purchase_request_exception.pr_excep_no_approver
+msgid "No approver"
+msgstr "Без затверджувача"
+
+#. module: purchase_request_exception
+#: model:exception.rule,description:purchase_request_exception.pr_excep_no_approver
+msgid "No approver assigned for this request"
+msgstr "Для цього запиту не призначено затверджувача"
+
+#. module: purchase_request_exception
+#: model:ir.model,name:purchase_request_exception.model_purchase_request_exception_confirm
+msgid "Purchase request exception wizard"
+msgstr "Майстер винятку запиту на закупівлю"
+
+#. module: purchase_request_exception
+#: model:exception.rule,description:purchase_request_exception.prl_excep_qty_check
+msgid "Purchase request line quantity must be positive"
+msgstr "Кількість рядка запиту на закупівлю має бути додатною"

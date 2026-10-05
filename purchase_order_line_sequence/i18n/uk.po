@@ -39,3 +39,14 @@ msgstr "Максимальна послідовність у рядках"
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_account_move_line__related_po_sequence
 msgid "PO Line Number"
 msgstr "Номер рядка PO"
+
+#. module: purchase_order_line_sequence
+#: model:ir.model.fields,help:purchase_order_line_sequence.field_purchase_order_line__visible_sequence
+msgid "Displays the sequence of the line in the purchase order."
+msgstr "Відображає послідовність рядка в замовленні на закупівлю."
+
+#. module: purchase_order_line_sequence
+#: model:ir.model.fields,help:purchase_order_line_sequence.field_purchase_order_line__sequence
+msgid "Gives the sequence of the line when displaying the purchase order."
+msgstr ""
+"Визначає послідовність рядка під час відображення замовлення на закупівлю."

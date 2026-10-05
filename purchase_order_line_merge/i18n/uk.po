@@ -138,3 +138,13 @@ msgstr "Об’єднати із замовленням закупівлі"
 #: model:ir.model.fields,field_description:purchase_order_line_merge.field_purchase_order_line_merge_line__quantity
 msgid "Quantity to Merge"
 msgstr "Кількість для об’єднання"
+
+#. module: purchase_order_line_merge
+#: model:ir.model,name:purchase_order_line_merge.model_purchase_order_line_merge
+msgid "Merge Purchase Order Lines"
+msgstr "Об’єднати рядки замовлення на закупівлю"
+
+#. module: purchase_order_line_merge
+#: model:ir.model,name:purchase_order_line_merge.model_purchase_order_line_merge_line
+msgid "Purchase Order Line Merge Line"
+msgstr "Рядок об’єднання рядків замовлення на закупівлю"

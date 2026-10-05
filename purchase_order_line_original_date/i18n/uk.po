@@ -18,3 +18,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_order_line_original_date.field_purchase_order_line__original_date_planned
 msgid "Original Expected Arrival"
 msgstr "Початкове очікуване прибуття"
+
+#. module: purchase_order_line_original_date
+#: model:ir.model.fields,help:purchase_order_line_original_date.field_purchase_order__original_date_planned
+msgid "Original Expected Arrival promised by vendor at PO confirmation."
+msgstr ""
+"Початкова очікувана дата прибуття, обіцяна постачальником під час "
+"підтвердження замовлення."
+
+#. module: purchase_order_line_original_date
+#: model:ir.model.fields,help:purchase_order_line_original_date.field_purchase_order_line__original_date_planned
+msgid "Original expected arrival at PO confirmation."
+msgstr "Початкова очікувана дата прибуття при підтвердженні PO."

@@ -67,3 +67,19 @@ msgstr "Використовувати етап «Затверджено»"
 #: model:ir.model.fields,field_description:purchase_order_approved.field_res_company__purchase_approve_active
 msgid "Use State 'Approved' in Purchase Orders"
 msgstr "Використовувати стан «Схвалено» в замовленнях закупівлі"
+
+#. module: purchase_order_approved
+#: model:ir.model.fields,help:purchase_order_approved.field_res_company__purchase_approve_active
+#: model:ir.model.fields,help:purchase_order_approved.field_res_config_settings__purchase_approve_active
+msgid ""
+"Adds an extra state in purchase orders previous to 'Purchase Order'. After "
+"confirming and approving a purchase order it will go to state 'Approved'. In"
+" this state the incoming shipments are not created yet and you still can go "
+"back to draft. You can release the creation of the incoming shipments moving"
+" the purchase order to state 'Purchase Order'."
+msgstr ""
+"Додає додатковий стан замовлення на закупівлю перед «Замовленням на "
+"закупівлю». Після підтвердження та схвалення замовлення переходить у стан "
+"«Схвалено». Вхідні поставки ще не створюються, і можна повернутися до "
+"чернетки. Створення поставок запускається переведенням у стан «Замовлення на"
+" закупівлю»."

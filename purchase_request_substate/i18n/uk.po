@@ -33,3 +33,19 @@ msgstr "Запит на закупівлю"
 #: model:target.state.value,name:purchase_request_substate.target_state_value_to_approve
 msgid "To be approved"
 msgstr "На схвалення"
+
+#. module: purchase_request_substate
+#: model:base.substate.type,name:purchase_request_substate.base_substate_type_purchase_request
+msgid "Purchase Request Substate"
+msgstr "Підстан запиту на закупівлю"
+
+#. module: purchase_request_substate
+#: model:base.substate,name:purchase_request_substate.base_substate_verified
+#: model:mail.template,name:purchase_request_substate.mail_template_data_purchase_request_substate_verified
+msgid "Verified"
+msgstr "Перевірено"
+
+#. module: purchase_request_substate
+#: model:mail.template,subject:purchase_request_substate.mail_template_data_purchase_request_substate_verified
+msgid "Your purchase request ${object.name} is verified"
+msgstr "Ваш запит на закупівлю ${object.name} перевірено"

@@ -48,3 +48,13 @@ msgstr "Після отримання"
 #: model:ir.model.fields.selection,name:purchase_invoice_status_line.selection__purchase_order_line__invoice_status__to_invoice
 msgid "Waiting Bills"
 msgstr "Очікування рахунків"
+
+#. module: purchase_invoice_status_line
+#: model:ir.model.fields,help:purchase_invoice_status_line.field_purchase_order__force_invoiced
+msgid ""
+"If true, the order is marked forced only when all lines are fully invoiced "
+"and at least one line was manually forced."
+msgstr ""
+"Якщо True, замовлення позначається примусово лише коли всі рядки повністю "
+"виставлено в рахунок і щонайменше один рядок було примусово позначено "
+"вручну."

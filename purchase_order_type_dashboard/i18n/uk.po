@@ -86,3 +86,8 @@ msgstr "Усього нічого до виставлення"
 #: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_tree
 msgid "Total Waiting Bills"
 msgstr "Усього рахунків в очікуванні"
+
+#. module: purchase_order_type_dashboard
+#: model:ir.model,name:purchase_order_type_dashboard.model_purchase_order_type
+msgid "Type of purchase order"
+msgstr "Тип замовлення на закупівлю"

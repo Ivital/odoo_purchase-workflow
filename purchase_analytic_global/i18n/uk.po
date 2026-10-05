@@ -27,3 +27,14 @@ msgstr "Точність аналітики"
 #: model:ir.model.fields,field_description:purchase_analytic_global.field_purchase_order__distribution_analytic_account_ids
 msgid "Distribution Analytic Account"
 msgstr "Аналітичний рахунок розподілу"
+
+#. module: purchase_analytic_global
+#: model:ir.model.fields,help:purchase_analytic_global.field_purchase_order__analytic_distribution
+msgid ""
+"This analytic distribution will be propagated to all lines analytic "
+"distributions, if you need to use different analytic distribution, define it"
+" at line level."
+msgstr ""
+"Цей аналітичний розподіл буде поширено на аналітичні розподіли всіх рядків. "
+"Якщо для окремого рядка потрібен інший розподіл, визначте його на рівні "
+"рядка."

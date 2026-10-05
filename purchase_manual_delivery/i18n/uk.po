@@ -262,3 +262,60 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr ""
 "Постачальника можна знайти за назвою, ІПН, електронною поштою або внутрішнім"
 " посиланням."
+
+#. module: purchase_manual_delivery
+#: model:ir.model,name:purchase_manual_delivery.model_create_stock_picking_wizard
+msgid "Create Manual Stock Picking Wizard"
+msgstr "Майстер ручного створення складського переміщення"
+
+#. module: purchase_manual_delivery
+#: model:ir.model,name:purchase_manual_delivery.model_create_stock_picking_wizard_line
+msgid "Create Manual Stock Picking Wizard Line"
+msgstr "Рядок майстра ручного створення складського переміщення"
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__date_planned
+msgid ""
+"Delivery date expected from vendor. This date respectively defaults to "
+"vendor pricelist lead time then today's date."
+msgstr ""
+"Очікувана дата доставки від постачальника. Типово береться строк постачання "
+"з прайс-листа постачальника, а потім сьогоднішня дата."
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard__location_dest_id
+msgid "Location where the system will stock the received products."
+msgstr "Місце, де система зберігатиме отримані товари."
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__qty_in_receipt
+#: model:ir.model.fields,help:purchase_manual_delivery.field_purchase_order_line__qty_in_receipt
+msgid "Quantity for which there are pending stock moves"
+msgstr "Кількість, для якої є незавершені складські переміщення"
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard__scheduled_date
+msgid ""
+"Scheduled time for the first part of the shipment to be processed. Setting "
+"manually a value here would set it as expected date for all the stock moves."
+msgstr ""
+"Запланований час обробки першої частини відправлення. Якщо вручну встановити"
+" тут значення, воно стане очікуваною датою для всіх складських переміщень."
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_purchase_order__manual_delivery
+msgid ""
+"Stock transfers need to be created manually to receive this PO's products"
+msgstr ""
+"Для отримання товарів цього замовлення на закупівлю складські переміщення "
+"потрібно створити вручну"
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_purchase_order_line__pending_to_receive
+msgid "There is pending quantity to receive not yet planned"
+msgstr "Є кількість в очікуванні на отримання, яку ще не заплановано"
+
+#. module: purchase_manual_delivery
+#: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__qty
+msgid "This is the quantity taken into account to create the picking"
+msgstr "Це кількість, яка враховується для створення комплектування"

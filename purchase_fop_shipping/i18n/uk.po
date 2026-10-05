@@ -35,3 +35,24 @@ msgstr "Підтвердити в межах FOP"
 #: model:ir.model.fields,help:purchase_fop_shipping.field_res_users__fop_shipping
 msgid "Min purchase order amount for FOP shipping"
 msgstr "Мінімальна сума замовлення на закупівлю для доставки FOP"
+
+#. module: purchase_fop_shipping
+#: model:res.groups,name:purchase_fop_shipping.group_fop_shipping_purchase_manager
+msgid "FOP shipping Manager"
+msgstr "Менеджер доставки FOP"
+
+#. module: purchase_fop_shipping
+#: model:ir.model.fields,help:purchase_fop_shipping.field_purchase_order__force_order_under_fop
+msgid "Force confirm purchase order under Free-Of-Payment shipping"
+msgstr ""
+"Примусово підтверджувати замовлення на закупівлю для доставки без оплати"
+
+#. module: purchase_fop_shipping
+#: model:ir.model.fields,help:purchase_fop_shipping.field_purchase_order__fop_reached
+msgid "Free-Of-Payment shipping reached"
+msgstr "Досягнуто доставки без оплати"
+
+#. module: purchase_fop_shipping
+#: model:ir.model.fields,help:purchase_fop_shipping.field_purchase_order__fop_shipping
+msgid "Min purchase order amount for Free-Of-Payment shipping"
+msgstr "Мінімальна сума замовлення на закупівлю для доставки без оплати"
